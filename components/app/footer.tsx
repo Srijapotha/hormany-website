@@ -1,194 +1,131 @@
 "use client";
 import Link from "next/link";
+import HarmonyLogo from "@/assets/images/HarmonyOverHate_Icon.svg";
+import Image from "next/image";
 import {
   Mail,
-  MapPin,
   Smartphone,
 } from "lucide-react";
 
 export default function Footer() {
-  
+
   return (
     <>
-      <footer className=" bg-white px-5 md:px-10 py-10 lg:container lg:max-w-7xl mx-auto">
+      <footer className="w-full bg-[#0F172A] pt-20 md:px-10 pb-20">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 w-full">
+    {/* Logo + Intro */}
+    <div className="flex flex-col">
+      <Link href="/" className="flex items-center">
+        <Image
+          src={HarmonyLogo}
+          alt="Harmony Logo"
+          width={140}
+          height={45}
+          className="h-30 w-30"
+          priority
+        />
+      </Link>
+      <p className="mt-4 text-normal text-[#D1D5DB]">
+        Building a world where diversity is celebrated and rights are protected
+        for all.
+      </p>
+    </div>
 
-        <div className="grid grid-cols-1 gap-8 pb-4 md:grid-cols-3">
-          <div className="col-span-1 flex flex-col gap-2 md:col-span-1">
-            <div className="p-auto gap-2">
-              <Link href="/">
-                {/* <Image alt="logo" src={logo} className="" height={40} /> */}
-              </Link>
-              <menu className="leading-10 mt-2">
-                <li>
-                  <Link
-                    href="/about-us"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    About Maulee
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/what-sets-us-apart"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    What sets us apart
-                  </Link>
-                </li>
-                {/* <li>
-                  <Link
-                    href="/"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Achievements
-                  </Link>
-                </li> */}
-                <li className="">
-                  <Link
-                    href="/projects"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Projects
-                  </Link>
-                </li>
-                <li className="">
-                  <Link
-                    href="/contact"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Contact
-                  </Link>
-                </li>
-                <li className="">
-                  <Link
-                    href="/our-app"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Application
-                  </Link>
-                </li>
-
-
-              </menu>
-            </div>
-          </div>
-
-          <div className="col-span-1 md:col-span-1">
-            <div className="p-auto gap-2">
-              <p className="text-2xl font-bold w-fit border-b-2 border-[#F05623]">
-                Join Us
-              </p>
-              <menu className="leading-10 mt-2">
-                {/* <li className="">
-                  <Link
-                    href="/"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Sitemap
-                  </Link>
-                </li>
-                <li className="">
-                  <Link
-                    href="/"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Suggest Project
-                  </Link>
-                </li> */}
-                <li>
-                  <Link
-                    href="/individual-contributions"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Individual Contributions
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/corporate-contributions"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Corporate Contributions
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/charities"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Charities
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/slavery-and-human-trafficking"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Slavery and Human Trafficking
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/policies-and-ethics"
-                    className="hover:font-bold hover:border-b-2 hover:border-b-orange-500 duration-300"
-                  >
-                    Policies and Ethics
-                  </Link>
-                </li>
-              </menu>
-            </div>
-          </div>
-
-          <div className="col-span-1 flex flex-col gap-5 md:col-span-1">
-            <p className="text-2xl font-bold w-fit border-b-2 border-[#F05623]">
-              Contact Us
-            </p>
-            <div className="flex items-center gap-2">
-              <Mail className="text-[#F05623] animate-jello-horizontal" />
-             
-            </div>
-
-            <div className="flex items-center gap-2">
-              <Smartphone className="text-[#F05623] animate-shakeHorizontal" />
-              
-            </div>
-
-            <div className="flex items-center gap-2">
-              <MapPin className="text-[#F05623] animate-heartbeat" />
-              
-            </div>
-
-
-            <div className="flex items-center gap-3">
-             
-            </div>
-
-
-
-
-          </div>
-        </div>
-      </footer>
-      <div className="p-1 bg-black">
-        <p className="text-center text-white font-medium">
-          Copyright © | All Rights Reserved | <Link
-            href="/terms-and-conditions"
-            className="hover:text-[#69b3f8fb] transform transition-all duration-300 delay-150"
-          >
-            Terms
-          </Link> | <Link
-            href="/cookie-policy"
-            className="hover:text-[#69b3f8fb] transform transition-all duration-300 delay-150"
-          >
-            Cookies
-          </Link> | <Link
-            href="/privacy-policy"
-            className="hover:text-[#69b3f8fb] transform transition-all duration-300 delay-150"
-          >
-            Privacy
+    {/* Quick Links */}
+    <div>
+      <p className="text-xl font-semibold text-white font-bold mb-3  w-fit">
+        Quick Links
+      </p>
+      <ul className="space-y-2 text-gray-300">
+        <li>
+          <Link href="/about-us" className=" text-[#D1D5DB] text-base text-normal">
+            About Us
           </Link>
-        </p>
-      </div>
+        </li>
+        <li>
+          <Link href="/what-sets-us-apart" className=" text-[#D1D5DB] text-base text-normal">
+            Our Programs
+          </Link>
+        </li>
+        <li>
+          <Link href="/projects" className=" text-[#D1D5DB] text-base text-normal">
+            Global Impact
+          </Link>
+        </li>
+        <li>
+          <Link href="/contact" className=" text-[#D1D5DB] text-base text-normal">
+            Success Stories
+          </Link>
+        </li>
+      </ul>
+    </div>
+
+    {/* Get Involved */}
+    <div>
+      <p className="text-lg font-semibold text-white font-bold mb-3  w-fit">
+        Get Involved
+      </p>
+      <ul className="space-y-2 text-gray-300">
+        <li>
+          <Link href="/individual-contributions" className=" text-[#D1D5DB] text-base text-normal">
+            Volunteer
+          </Link>
+        </li>
+        <li>
+          <Link href="/corporate-contributions" className=" text-[#D1D5DB] text-base text-normal">
+            Donate
+          </Link>
+        </li>
+        <li>
+          <Link href="/charities" className=" text-[#D1D5DB] text-base text-normal">
+            Partner With Us
+          </Link>
+        </li>
+        <li>
+          <Link href="/slavery-and-human-trafficking" className=" text-[#D1D5DB] text-base text-normal">
+            Join Campaigns
+          </Link>
+        </li>
+      </ul>
+    </div>
+
+    {/* Contact Us */}
+    <div>
+      <p className="text-lg font-semibold text-white font-bold mb-3  w-fit">
+        Contact Us
+      </p>
+      <ul className="space-y-3 text-gray-300">
+        <li className="flex items-center gap-3 mb-6">
+          <Mail className="text-[#E5E7EB] animate-jello-horizontal" />
+          <span className=" text-[#D1D5DB] text-base text-normal">info@harmonyoverhate.org</span>
+        </li>
+        <li className="flex items-center gap-3">
+          <Smartphone className="text-[#E5E7EB] animate-shakeHorizontal" />
+          <span className=" text-[#D1D5DB] text-base text-normal">+44 20 4540 0111</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+{/* Bottom Bar */}
+<div className="w-full bg-black py-3">
+  <p className="text-center text-gray-300 text-sm">
+    Copyright © | All Rights Reserved |{" "}
+    <Link href="/terms-and-conditions" className="hover:text-[#69b3f8fb] transition">
+      Terms
+    </Link>{" "}
+    |{" "}
+    <Link href="/cookie-policy" className="hover:text-[#69b3f8fb] transition">
+      Cookies
+    </Link>{" "}
+    |{" "}
+    <Link href="/privacy-policy" className="hover:text-[#69b3f8fb] transition">
+      Privacy
+    </Link>
+  </p>
+</div>
+
     </>
   );
 }
