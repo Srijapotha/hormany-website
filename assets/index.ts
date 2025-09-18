@@ -8,6 +8,15 @@ import scholarship_programs from "./images/scholarship_programs.webp"
 import educational_resources from './images/educational_resources.webp'
 import training_workshops from "./images/training_workshops.webp"
 import education_video_banner from "./images/education_video_banner.webp"
+import Compassion from "./Icons/Compassion.svg"
+import Inclusivity from "./Icons/Inclusivity.svg"
+import Integrity from "./Icons/Integrity.svg"
+import Collaboration from "./Icons/Collaboration.svg"
+import Innovation from "./Icons/Innovation.svg"
+import Sustainability from "./Icons/Sustainability.svg"
+import Diversity from "./Icons/Diversity.svg"
+import Accountability from "./Icons/Accountability.svg"
+import Empowerment from "./Icons/Empowerment.svg"
 
 export { 
     human_rights_hero,
@@ -18,4 +27,5 @@ export {
     scholarship_programs,
     educational_resources,
     training_workshops,
-    education_video_banner};
+    education_video_banner,
+Compassion,Inclusivity,Integrity,Collaboration,Innovation,Sustainability,Diversity,Accountability,Empowerment};
