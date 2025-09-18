@@ -3,7 +3,7 @@ import { Lightbulb, Shield, Megaphone,} from "lucide-react"
 import { Interfaith_Community_Harmony_hero } from "@/assets"
 import Image from "next/image"
 
-export default function HomePage() {
+export default function  InterfaithCommunityHarmony() {
     return (
         <>
             {/* Hero section */}
