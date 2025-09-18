@@ -28,6 +28,17 @@ import Sustainability from "./Icons/Sustainability.svg"
 import Diversity from "./Icons/Diversity.svg"
 import Accountability from "./Icons/Accountability.svg"
 import Empowerment from "./Icons/Empowerment.svg"
+import WhatWeDohappyImage from "./images/whatwedo/happy.webp";
+import WhatWeDoFindACharity from "./images/whatwedo/charity.webp";
+import GetStrategicAdviceUser from "./images/whatwedo/user.webp";
+import WhatWeDoCharityImage from "./images/whatwedo/application.webp";
+import WhatWeDoMethodImage1 from "./images/whatwedo/MethodImage1.webp";
+import WhatWeDoMethodImage2 from "./images/whatwedo/MethodImage2.webp";
+import WhatWeDoMethodImage3 from "./images/whatwedo/MethodImage3.webp";
+import WhatWeDoCorporateImage1 from "./images/whatwedo/corporateteam.webp";
+import WhatWeDoCorporateImage2 from "./images/whatwedo/corporateteamimage2.webp";
+import WhatWeDoCorporateImage3 from "./images/whatwedo/groupimage.webp";
+import WhatWeDoCorporateImage4 from "./images/whatwedo/corporateteam2.webp";
 
 export { 
     human_rights_hero,
@@ -58,6 +69,17 @@ export {
     Sustainability,
     Diversity,
     Accountability,
-    Empowerment
+    Empowerment,
+    WhatWeDohappyImage,
+    WhatWeDoFindACharity,
+    GetStrategicAdviceUser,
+    WhatWeDoCharityImage,
+    WhatWeDoMethodImage1,
+    WhatWeDoMethodImage2,
+    WhatWeDoMethodImage3,
+    WhatWeDoCorporateImage1,
+    WhatWeDoCorporateImage2,
+    WhatWeDoCorporateImage3,
+    WhatWeDoCorporateImage4
 };
 
