@@ -14,6 +14,16 @@ const nextConfig: NextConfig = {
     ],
   },
 
+  theme: {
+  extend: {
+    fontFamily: {
+      poppins: ["var(--font-poppins)", "sans-serif"],
+      unbounded: ["var(--font-unbounded)", "sans-serif"],
+    },
+  },
+},
+
+
   //  enables some experimental optimizations (optional)
   experimental: {
     optimizeCss: true,
