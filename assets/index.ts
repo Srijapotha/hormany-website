@@ -19,7 +19,15 @@ import MissionDevelopment1 from "./images/ourmission/community.webp";
 import MissionDevelopment2 from "./images/ourmission/charity.webp";
 import MissionDevelopment3 from "./images/ourmission/civic.webp";
 import MissionDevelopment4 from "./images/ourmission/inclusive.webp";
-
+import Compassion from "./Icons/Compassion.svg"
+import Inclusivity from "./Icons/Inclusivity.svg"
+import Integrity from "./Icons/Integrity.svg"
+import Collaboration from "./Icons/Collaboration.svg"
+import Innovation from "./Icons/Innovation.svg"
+import Sustainability from "./Icons/Sustainability.svg"
+import Diversity from "./Icons/Diversity.svg"
+import Accountability from "./Icons/Accountability.svg"
+import Empowerment from "./Icons/Empowerment.svg"
 
 export { 
     human_rights_hero,
@@ -42,4 +50,14 @@ export {
     MissionDevelopment2,
     MissionDevelopment3,
     MissionDevelopment4,
+    Compassion,
+    Inclusivity,
+    Integrity,
+    Collaboration,
+    Innovation,
+    Sustainability,
+    Diversity,
+    Accountability,
+    Empowerment
 };
+
