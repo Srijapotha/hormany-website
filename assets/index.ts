@@ -1,12 +1,5 @@
 import Banner from "./images/banner.webp";
 import Map from "./images/map.webp";
-
-export{
-    Banner,
-    Map,
-
- };
-
 import human_rights_hero from "./images/human_rights_hero.webp";
 import Interfaith_Community_Harmony_hero from "./images/Interfaith_Community_Harmony_hero.webp";
 import support_relif from "./images/support_relif.webp"
@@ -48,7 +41,9 @@ import WhatWeDoCorporateImage2 from "./images/whatwedo/corporateteamimage2.webp"
 import WhatWeDoCorporateImage3 from "./images/whatwedo/groupimage.webp";
 import WhatWeDoCorporateImage4 from "./images/whatwedo/corporateteam2.webp";
 
-export { 
+export {
+    Banner,
+    Map,
     human_rights_hero,
     Interfaith_Community_Harmony_hero,
     support_relif,
