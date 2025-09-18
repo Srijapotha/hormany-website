@@ -1,9 +1,8 @@
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
-import { Interfaith_Community_Harmony_hero } from "@/assets"
-import { Community_Development } from "@/assets"
+import { Interfaith_Community_Harmony_hero,Community_Development } from "@/assets"
 import Image from "next/image"
 
-export default function HomePage() {
+export default function CommunityDevelopment() {
     return (
         <>
             {/* Hero section */}

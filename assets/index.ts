@@ -28,6 +28,15 @@ import Sustainability from "./Icons/Sustainability.svg"
 import Diversity from "./Icons/Diversity.svg"
 import Accountability from "./Icons/Accountability.svg"
 import Empowerment from "./Icons/Empowerment.svg"
+import missionImage from "./images/ourmission/missionImage.webp"
+import Economic_Transparency from "./images/Economic_Transparency.webp"
+import Paresh_Deshmukh from "./images/Team/Paresh_Deshmukh.webp"
+import Luis from "./images/Team/Luis.webp"
+import suki from "./images/Team/suki.webp"
+import salman from "./images/Team/salman.webp"
+import Poorva_Deshmukh from "./images/Team/Poorva_Deshmukh.webp"
+import Vijay_Pattar from "./images/Team/Vijay_Pattar.webp"
+import Sushil_Gaikwad from "./images/Team/Sushil_Gaikwad.webp"
 
 export { 
     human_rights_hero,
@@ -58,6 +67,16 @@ export {
     Sustainability,
     Diversity,
     Accountability,
-    Empowerment
+    Empowerment,
+    missionImage,
+    Economic_Transparency,
+    Paresh_Deshmukh,
+    Luis,
+    suki,
+    salman,
+    Poorva_Deshmukh,
+    Vijay_Pattar,
+    Sushil_Gaikwad
+
 };
 

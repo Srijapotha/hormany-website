@@ -1,14 +1,10 @@
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
-import { scholarship_programs } from "@/assets"
-import { educational_resources } from "@/assets"
-import { training_workshops } from "@/assets"
-import { education_scholarship } from "@/assets"
+import { scholarship_programs,educational_resources,training_workshops,education_scholarship,education_video_banner } from "@/assets"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Handshake, Heart, User, ArrowRight } from "lucide-react"
-import { education_video_banner } from "@/assets"
 
-export default function HomePage() {
+export default function EducationScholarship() {
   return (
     <>
       {/* Hero section */}

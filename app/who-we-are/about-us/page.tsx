@@ -2,19 +2,11 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Eye, ChartLine, Handshake, Heart, User } from "lucide-react"
-import { human_rights_hero } from "@/assets"
 import Image from "next/image"
-import { Compassion } from "@/assets"
-import {Inclusivity} from "@/assets"
-import {Integrity} from "@/assets"
-import {Collaboration} from "@/assets"
-import {Innovation} from "@/assets"
-import {Sustainability} from "@/assets"
-import {Diversity} from "@/assets"
-import {Accountability} from "@/assets"
-import {Empowerment}  from "@/assets"
+import { human_rights_hero,Compassion, Inclusivity, Integrity, Collaboration, Innovation, Sustainability, Diversity, Accountability, Empowerment } from "@/assets";
 
-export default function HomePage() {
+
+export default function aboutus() {
     return (
         <>
             {/* Hero section */}
@@ -35,7 +27,7 @@ export default function HomePage() {
                 </div>
             </div>
 
-            {/* Why It Matters */}
+            {/* Who we are */}
             <div className="p-[40px_10px_40px_10px] md:p-[6%]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Who We Are</h2>
                 <p className="text-center text-[#64748B] text-base font-normal leading-relaxed md:-mt-10 -mt-5">
