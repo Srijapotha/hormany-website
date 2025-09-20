@@ -22,7 +22,7 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="relative z-10 max-w-3xl text-white space-y-4">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-[40px] sm:leading-[50px] md:leading-[65px] lg:leading-[75px]" style={{ fontFamily: "Unbounded" }}>
-                        What We Do
+                        Charities
                     </h1>
                 </div>
             </div>

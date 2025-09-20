@@ -3,9 +3,9 @@ import { Card, CardContent } from '@/components/ui/card';
 
 export default function AmplifyYourImpact() {
   return (
-    <section className="py-20 bg-white">
+    <section className="p-[40px_10px_40px_10px] md:p-[6%]">
       <div className="container mx-auto px-5 max-w-6xl">
-        <h2 className="text-center text-4xl font-bold text-gray-900 mb-4" style={{ fontFamily: "Unbounded" }}>
+        <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
           Amplify your impact
         </h2>
         <p className="text-center text-gray-500 text-lg max-w-6xl mx-auto mb-16 leading-relaxed">

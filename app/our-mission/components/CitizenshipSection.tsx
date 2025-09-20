@@ -3,13 +3,13 @@ import Image from "next/image";
 import { MissionDevelopment1, MissionDevelopment2, MissionDevelopment3, MissionDevelopment4 } from "@/assets";
 export default function CitizenshipSection() {
     return(
-          <section className="py-20">
+          <section className="bg-[#FCFCF2] p-[40px_10px_40px_10px] md:p-[6%]">
                 <div className="container mx-auto px-5 max-w-5xl">
                   <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 leading-tight">
+                    <h2  className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[35px] sm:leading-[45px] md:leading-[50px]" style={{ fontFamily: "Unbounded" }}>
                       Advancement of Citizenship and Community Development
                     </h2>
-                    <p className="text-lg md:text-xl text-gray-600 max-w-4xl mx-auto">
+                    <p className="text-center mb-8 text-lg text-[#0F172A] max-w-3xl mx-auto md:-mt-10 -mt-5">
                       To advance citizenship and community development for the public
                       benefit by
                     </p>

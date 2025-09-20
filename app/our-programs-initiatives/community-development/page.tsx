@@ -7,7 +7,7 @@ export default function CommunityDevelopment() {
         <>
             {/* Hero section */}
             <div
-                className="relative w-full h-[60vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
+                className="relative w-full md:h-[60vh] h-[100vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
                 style={{
                     backgroundImage: `url(${Community_Development.src})`,
                     backgroundSize: "cover",

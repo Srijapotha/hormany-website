@@ -29,8 +29,8 @@ export default function aboutus() {
 
             {/* Who we are */}
             <div className="p-[40px_10px_40px_10px] md:p-[6%]">
-                <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Who We Are</h2>
-                <p className="text-center text-[#64748B] text-base font-normal leading-relaxed md:-mt-10 -mt-5">
+                <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Who We Are</h2>
+                <p className="text-center text-[#64748B] text-base font-normal leading-relaxed">
                     HarmonyOverHate is a global charity dedicated to creating a world where dignity, equality, and <br />respect are the foundation of every community. We work to support victims of hate, promote dialogue<br /> across faiths, empower through education, and strengthen communities for lasting harmony.
                 </p>
             </div>
@@ -226,10 +226,10 @@ export default function aboutus() {
 
             {/* Join Our Movement */}
             <div className="bg-gradient-to-r from-[#2E6BE6] to-[#7A60D1] p-[40px_10px_40px_10px] md:p-[6%]">
-                <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#ffffff] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
+                <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#ffffff] mb-1 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
                     Join Our Movement
                 </h2>
-                <p className="text-center mb-8 text-lg text-white max-w-3xl mx-auto md:-mt-10 -mt-5">
+                <p className="text-center mb-8 text-lg text-white max-w-3xl mx-auto">
                     Every action counts. Whether through volunteering, donating, or spreading awareness, you can make a difference.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">

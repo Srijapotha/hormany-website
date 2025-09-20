@@ -4,10 +4,10 @@ import { WhatWeDoFindACharity } from "@/assets";
 
 const AdvisoryComponent: React.FC = () => {
   return (
-    <div className="max-w-7xl mx-auto p-6 bg-gray-50 min-h-screen">
+    <div className="p-[40px_10px_40px_10px] md:p-[6%]">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-3xl md:text-[34px] font-bold text-gray-900" style={{ fontFamily: "Unbounded" }}>
+        <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[35px] sm:leading-[45px] md:leading-[50px]" style={{ fontFamily: "Unbounded" }}>
           Would you happen to know how our
           <br />
           Advisory works?
@@ -15,14 +15,14 @@ const AdvisoryComponent: React.FC = () => {
       </div>
 
       {/* Main Content Grid */}
-      <div className="px-16 py-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+      <div className="md:px-16 md:py-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
         <div>
           <div className="flex items-start mb-4">
             <span className="text-yellow-400 mr-2">✦</span>
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900">
+            <h3 className="text-lg md:text-xl font-semibold text-gray-900">
               Magnitude inspires us
-            </h2>
+            </h3>
           </div>
           <div className="space-y-4 text-gray-600 text-sm leading-relaxed ml-6">
             <p>
@@ -45,13 +45,13 @@ const AdvisoryComponent: React.FC = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mt-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-10">
           <div>
             <div className="flex items-start mb-4">
               <span className="text-yellow-400 mr-2">✦</span>
-              <h2 className="text-lg md:text-xl font-semibold text-gray-900">
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900">
                 We function judiciously
-              </h2>
+              </h3>
             </div>
             <div className="text-gray-600 text-sm leading-relaxed ml-6">
               <p className="mb-3">
@@ -70,11 +70,11 @@ const AdvisoryComponent: React.FC = () => {
 
           {/* We're your partner */}
           <div>
-            <div className="flex items-start mb-4">
+            <div className="flex items-start">
               <span className="text-yellow-400 mr-2">✦</span>
-              <h2 className="text-lg md:text-xl font-semibold text-gray-900">
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900">
                 We’re your partner in this venture
-              </h2>
+              </h3>
             </div>
             <div className="text-gray-600 text-sm leading-relaxed ml-6">
               <p className="mb-3">

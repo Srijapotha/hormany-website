@@ -8,7 +8,7 @@ export default function Team() {
         <>
             {/* Hero section */}
             <div
-                className="relative w-full h-[60vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
+                className="relative w-full md:h-[60vh] h-[100vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
                 style={{
                     backgroundImage: `url(${missionImage.src})`,
                     backgroundSize: "cover",
@@ -30,11 +30,11 @@ export default function Team() {
 
 
             {/* Global Board */}
-            <div className="bg-[#2E6BE60D] p-[40px_10px_40px_10px] md:p-[6%]">
+            <div className="bg-[#2E6BE60D] p-[40px_10px_40px_10px] md:p-[40px_10px_40px_10px] md:p-[6%]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
                     Global Board
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-7xl mx-auto px-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-4">
                     
                     <div className="group relative">
                         <Image
@@ -129,11 +129,11 @@ export default function Team() {
 
 
             {/* Excutive Board */}
-            <div className="bg-white p-[40px_10px_40px_10px] md:p-[6%]">
+            <div className="bg-white p-[40px_10px_40px_10px] md:p-[40px_10px_40px_10px] lg:p-[4%_12%_]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
                     Excutive Board
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 md:w-250">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
                     
                     <div className="group relative">
                         <Image

@@ -1,9 +1,9 @@
 export default function CharityResourcesQuote() {
   return (
-    <section className="pb-12 bg-gray-50">
-      <div className="container mx-auto px-5 max-w-5xl text-center flex flex-col items-center">
+    <section className="p-[40px_10px_40px_10px] md:p-[4%] bg-white">
+      <div className="mx-auto px-5 max-w-5xl text-center flex flex-col items-center bg-white">
         {/* Header */}
-        <h2 className="text-blue-500 text-lg md:text-xl font-semibold mb-8 md:mb-12">
+        <h2 className="text-blue-500 text-lg md:text-xl font-semibold mb-8 md:mb-6">
           Explore our Resources for Charities
         </h2>
         
@@ -18,7 +18,7 @@ export default function CharityResourcesQuote() {
         </blockquote>
         
         {/* Decorative line */}
-        <div className="w-16 h-px bg-gray-300 mx-auto mb-8 md:mb-10"></div>
+        <div className="w-80 h-px bg-[#2E6BE6] mx-auto mb-8 md:mb-10"></div>
         
         {/* Supporting text */}
         <div className="space-y-4 text-gray-600 text-sm md:text-base leading-relaxed max-w-3xl mx-auto">

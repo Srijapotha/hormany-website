@@ -4,10 +4,10 @@ import { WhatWeDoMethodImage1, WhatWeDoMethodImage2 , WhatWeDoMethodImage3} from
 
 export default function OurMethodology() {
   return (
-    <section className="py-12 md:py-16 lg:py-20 bg-white">
+    <section className="p-[40px_10px_40px_10px] md:p-[6%]">
       <div className="container mx-auto px-4 max-w-6xl">
         {/* Header */}
-        <h2 className="text-2xl md:text-[34px] font-bold text-center text-gray-900 mb-12 md:mb-16" style={{ fontFamily: "Unbounded" }}>
+        <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
           Our Methodology
         </h2>
 

@@ -8,7 +8,7 @@ export default function  InterfaithCommunityHarmony() {
         <>
             {/* Hero section */}
             <div
-                className="relative w-full h-[60vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
+                className="relative w-full  md:h-[60vh] h-[100vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
                 style={{
                     backgroundImage: `url(${Interfaith_Community_Harmony_hero.src})`,
                     backgroundSize: "cover",
@@ -29,8 +29,8 @@ export default function  InterfaithCommunityHarmony() {
 
             {/* Why It Matters */}
             <div className="p-[40px_10px_40px_10px] md:p-[6%]">
-                <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Why Interfaith Harmony Matters</h2>
-                <p className="text-center text-[#64748B] text-base font-normal leading-relaxed md:-mt-10 -mt-5">
+                <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Why Interfaith Harmony Matters</h2>
+                <p className="text-center text-[#64748B] text-base font-normal leading-relaxed">
                     In today’s diverse world, promoting interfaith and community harmony is essential to overcoming prejudice, <br />preventing conflict, and building unity. By encouraging dialogue and collaboration, we create stronger, safer, and more <br />inclusive communities where everyone is valued.
                 </p>
             </div>
