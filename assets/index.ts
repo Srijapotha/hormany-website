@@ -48,7 +48,7 @@ import salman from "./images/Team/salman.webp"
 import Poorva_Deshmukh from "./images/Team/Poorva_Deshmukh.webp"
 import Vijay_Pattar from "./images/Team/Vijay_Pattar.webp"
 import Sushil_Gaikwad from "./images/Team/Sushil_Gaikwad.webp"
-import  missionImage from "./images/ourmission/missionImage.webp"
+import missionImage from "./images/ourmission/missionImage.webp"
 import Economic_Transparency from "./images/Economic_Transparency.webp"
 
 import Program1 from "./images/programms/program1.webp";
@@ -61,8 +61,6 @@ import Project2 from "./images/project/project2.webp";
 import Project3 from "./images/project/project3.webp";
 import Project4 from "./images/project/project4.webp";
 import Project5 from "./images/project/project5.webp";
-import Economic_Transparency from "./images/Economic_Transparency.webp";
-
 
 export {
     Banner,
@@ -115,19 +113,17 @@ export {
     Poorva_Deshmukh,
     Vijay_Pattar,
     Sushil_Gaikwad,
-     missionImage,
-     Economic_Transparency
-    WhatWeDoCorporateImage4,
+    missionImage,
+    Economic_Transparency,
     Program1,
-    Program2, 
+    Program2,
     Program3,
     Program4,
     Program5,
     Project1,
-    Project2, 
+    Project2,
     Project3,
     Project4,
     Project5,
-    Economic_Transparency,
 };
 
