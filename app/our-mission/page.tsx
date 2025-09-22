@@ -21,8 +21,8 @@ export default function MissionPage() {
             Over Mission & Global Presence
           </h1>
           <p className="text-lg md:text-xl mt-4">
-            HarmonyOverHate is committed to building a world where diversity is
-            celebrated, rights are protected, and communities thrive together.
+            {`HarmonyOverHate is committed to building a world where diversity is
+            celebrated, rights are protected, and communities thrive together.`}
           </p>
         </div>
       </section>

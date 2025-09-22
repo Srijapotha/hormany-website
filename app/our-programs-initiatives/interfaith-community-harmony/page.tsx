@@ -22,7 +22,7 @@ export default function  InterfaithCommunityHarmony() {
                         Interfaith & Community Harmony
                     </h1>
                     <p className="text-lg md:text-xl">
-                        Join us in the fight for justice and equality together we can make a difference
+                        {`Join us in the fight for justice and equality together we can make a difference`}
                     </p>
                 </div>
             </div>
@@ -31,7 +31,7 @@ export default function  InterfaithCommunityHarmony() {
             <div className="p-[40px_10px_40px_10px] md:p-[6%]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Why Interfaith Harmony Matters</h2>
                 <p className="text-center text-[#64748B] text-base font-normal leading-relaxed">
-                    In today’s diverse world, promoting interfaith and community harmony is essential to overcoming prejudice, <br />preventing conflict, and building unity. By encouraging dialogue and collaboration, we create stronger, safer, and more <br />inclusive communities where everyone is valued.
+                    {`In todays diverse world, promoting interfaith and community harmony is essential to overcoming prejudice,preventing conflict, and building unity. By encouraging dialogue and collaboration, we create stronger, safer, and more inclusive communities where everyone is valued.`}
                 </p>
             </div>
 
@@ -52,7 +52,7 @@ export default function  InterfaithCommunityHarmony() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal -mt-4">
-                                Facilitating meaningful conversations and exchanges between people of different faiths to build trust and break down stereotypes.
+                                {`Facilitating meaningful conversations and exchanges between people of different faiths to build trust and break down stereotypes.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -66,7 +66,7 @@ export default function  InterfaithCommunityHarmony() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal -mt-4">
-                                Collaborating on community-based projects that address social needs and promote cooperation across faith lines.
+                               {` Collaborating on community-based projects that address social needs and promote cooperation across faith lines.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -80,7 +80,7 @@ export default function  InterfaithCommunityHarmony() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal -mt-4">
-                                Raising awareness about the importance of interfaith harmony and advocating for policies that promote inclusivity and respect for religious diversity.
+                                {`Raising awareness about the importance of interfaith harmony and advocating for policies that promote inclusivity and respect for religious diversity.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -90,7 +90,7 @@ export default function  InterfaithCommunityHarmony() {
 
             {/* Stories of Harmony
  */}
-            <div className="bg-white p-[40px_10px_40px_10px] md:p-[6%]">
+            {/* <div className="bg-white p-[40px_10px_40px_10px] md:p-[6%]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
                     Stories of Harmony
                 </h2>
@@ -137,7 +137,7 @@ export default function  InterfaithCommunityHarmony() {
                     </Card>
 
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

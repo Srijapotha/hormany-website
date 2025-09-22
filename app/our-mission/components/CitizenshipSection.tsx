@@ -10,8 +10,7 @@ export default function CitizenshipSection() {
                       Advancement of Citizenship and Community Development
                     </h2>
                     <p className="text-center mb-8 text-lg text-[#0F172A] max-w-3xl mx-auto md:-mt-10 -mt-5">
-                      To advance citizenship and community development for the public
-                      benefit by
+                      {`To advance harmony among all faiths and communities for the public benefit by`}
                     </p>
                   </div>      
                   <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
@@ -27,9 +26,9 @@ export default function CitizenshipSection() {
                         Community Engagement
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
-                        Supporting community centres, volunteer programmes, and cultural
+                       {` Supporting community centres, volunteer programmes, and cultural
                         activities that bring people together across all faiths and
-                        communities, enhancing social cohesion.
+                        communities, enhancing social cohesion.`}
                       </p>
                     </div>
         
@@ -47,9 +46,9 @@ export default function CitizenshipSection() {
                             Charity Collaboration
                           </h4>
                           <p className="text-gray-600 text-sm leading-relaxed">
-                            Encouraging collaboration between charities, community
+                            {`Encouraging collaboration between charities, community
                             groups, faith organisations, and public bodies to reduce
-                            prejudice and build stronger, sustainable communities.
+                            prejudice and build stronger, sustainable communities.`}
                           </p>
                         </div>
                       </div>
@@ -67,9 +66,9 @@ export default function CitizenshipSection() {
                             Civic Participation
                           </h4>
                           <p className="text-gray-600 text-sm leading-relaxed">
-                            Promoting active civic participation, social responsibility,
+                           {` Promoting active civic participation, social responsibility,
                             and environmental sustainability across all sections of
-                            society.
+                            society.`}
                           </p>
                         </div>
                       </div>
@@ -87,8 +86,8 @@ export default function CitizenshipSection() {
                             Inclusive Initiatives
                           </h4>
                           <p className="text-gray-600 text-sm leading-relaxed">
-                            Supporting initiatives that encourage inclusive
-                            collaboration for the long-term benefit of society.
+                            {`Supporting initiatives that encourage inclusive
+                            collaboration for the long-term benefit of society.`}
                           </p>
                         </div>
                       </div>

@@ -9,8 +9,8 @@ export default function HarmonySection() {
               All Faiths and Communities
             </h2>
             <p className="text-center text-[#C1C1C1] text-base font-normal leading-relaxed md:-mt-10 -mt-5">
-              To advance harmony among all faiths and communities for the public
-              benefit by
+             {`  To advance harmony among all faiths and communities for the public
+              benefit by`}
             </p>
           </div>
 
@@ -19,29 +19,29 @@ export default function HarmonySection() {
             <div className="hidden lg:block"></div>
             <div className="bg-white py-8 px-4 md:px-6 md:py-12 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 rounded-t-3xl lg:rounded-t-3xl lg:rounded-b-none flex items-center min-h-48">
               <p className="text-base font-medium leading-relaxed text-[#64748B]">
-                Supporting interfaith and intercultural events and projects that
-                promote reconciliation and long-term social cohesion.
+                {`Supporting interfaith and intercultural events and projects that
+                promote reconciliation and long-term social cohesion.`}
               </p>
             </div>
             <div className="hidden lg:block"></div>
             <div className="bg-white py-8 px-4 md:px-6 md:py-12  shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 rounded-t-3xl lg:rounded-t-3xl lg:rounded-b-none flex items-center min-h-48">
               <p className="text-base font-medium leading-relaxed text-[#64748B]">
-                Working collaboratively across sectors to strengthen
-                understanding and respect between all faiths and communities.
+                {`Working collaboratively across sectors to strengthen
+                understanding and respect between all faiths and communities.`}
               </p>
             </div>
 
             <div className="bg-white py-8 px-4 md:px-6 md:py-12 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 rounded-b-3xl lg:rounded-b-3xl lg:rounded-t-none flex items-center min-h-48">
               <p className="text-base font-medium leading-relaxed text-[#64748B]">
-                Encouraging dialogue, co-operation, and friendship between
-                people of all faiths, cultures, and community backgrounds.
+                {`Encouraging dialogue, co-operation, and friendship between
+                people of all faiths, cultures, and community backgrounds.`}
               </p>
             </div>
             <div className="hidden lg:block"></div>
             <div className="bg-white py-8 px-4 md:px-6 md:py-12 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 rounded-b-3xl lg:rounded-b-3xl lg:rounded-t-none flex items-center min-h-48">
               <p className="text-base font-medium leading-relaxed text-[#64748B]">
-                Providing education and mediation initiatives to reduce conflict
-                and build peaceful, sustainable relationships.
+                {`Providing education and mediation initiatives to reduce conflict
+                and build peaceful, sustainable relationships.`}
               </p>
             </div>
             <div className="hidden lg:block"></div>

@@ -11,7 +11,7 @@ export default function EducationSection() {
                       Advancement of Education
                     </h2>
                     <p className="text-center mb-8 text-lg text-[#0F172A] max-w-3xl mx-auto md:-mt-10 -mt-5">
-                      To advance education for the public benefit by
+                     {` To advance education for the public benefit by`}
                     </p>
                   </div>
         
@@ -32,9 +32,9 @@ export default function EducationSection() {
                         School & Community Programmes
                       </h3>
                       <p className="text-base font-normal leading-relaxed">
-                        Supporting schools, colleges, and community groups to deliver
+                        {`Supporting schools, colleges, and community groups to deliver
                         programmes on equality, diversity, citizenship, and human
-                        rights.
+                        rights.`}
                       </p>
                     </div>
         
@@ -54,9 +54,9 @@ export default function EducationSection() {
                         Research & Publications
                       </h3>
                       <p className="text-base font-normal leading-relaxed">
-                        Supporting research, publications, and events on issues of
+                        {`Supporting research, publications, and events on issues of
                         prejudice, social integration, harmony among all faiths, and
-                        sustainable community development
+                        sustainable community development`}
                       </p>
                     </div>
         
@@ -65,9 +65,9 @@ export default function EducationSection() {
                         Scholarships & Training
                       </h3>
                       <p className="text-base font-normal leading-relaxed">
-                        Providing scholarships, bursaries, or training opportunities to
+                        {`Providing scholarships, bursaries, or training opportunities to
                         develop skills in conflict resolution, hate crime prevention,
-                        leadership, and sustainability.
+                        leadership, and sustainability.`}
                       </p>
                     </div>
         
@@ -76,8 +76,8 @@ export default function EducationSection() {
                         Educational Collaboration
                       </h3>
                       <p className="text-base font-normal leading-relaxed">
-                        Promoting collaboration between educational institutions and
-                        community groups to embed inclusive and cohesive practices.
+                        {`Promoting collaboration between educational institutions and
+                        community groups to embed inclusive and cohesive practices.`}
                       </p>
                     </div>
                   </div>

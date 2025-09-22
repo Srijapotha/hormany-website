@@ -40,8 +40,8 @@ export default function AdvancementSection() {
             Advancement of Human Rights, Equality <br/>and Diversity
           </h2>
           <p className="text-center text-[#64748B] text-base font-normal leading-relaxed md:-mt-10 -mt-5">
-            To advance human rights, equality, and diversity for the public
-            benefit by
+            {`  To advance human rights, equality, and diversity for the public
+            benefit by`}
           </p>
         </div>
 

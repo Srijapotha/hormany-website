@@ -7,9 +7,9 @@ export default function ReliefSection() {
             Relief of Those in Need
           </h2>
           <p className="mb-8 text-lg text-[#0F172A]  mx-auto md:-mt-10 -mt-5 text-[#64748B]">
-            To relieve the needs of individuals who have suffered hate crime,
-            discrimination,<br/> or social exclusion due to faith, ethnicity, or
-            community identity by
+             {`To relieve the needs of individuals who have suffered hate crime,
+            discrimination, or social exclusion due to faith, ethnicity, or
+            community identity by`}
           </p>
         </div>
 
@@ -28,7 +28,7 @@ export default function ReliefSection() {
               </h3>
             </div>
             <p className="text-gray-600 leading-relaxed pr-5 mb-10 -mt-5">
-              Offering support services, grants, or practical assistance.
+              {`Offering support services, grants, or practical assistance.`}
             </p>
           </div>
 
@@ -46,8 +46,8 @@ export default function ReliefSection() {
               </h3>
             </div>
             <p className="text-gray-600 leading-relaxed pr-5 mb-10 -mt-5">
-              Helping victims and their families recover, integrate, and rebuild
-              confidence through sustainable support programmes.
+              {`Helping victims and their families recover, integrate, and rebuild
+              confidence through sustainable support programmes.`}
             </p>
           </div>
 
@@ -65,8 +65,8 @@ export default function ReliefSection() {
               </h3>
             </div>
             <p className="text-gray-600 leading-relaxed pr-5 mb-10 -mt-5">
-              Supporting partner organisations that deliver counselling, crisis
-              relief, or rehabilitation services.
+             {` Supporting partner organisations that deliver counselling, crisis
+              relief, or rehabilitation services.`}
             </p>
           </div>
 
@@ -84,8 +84,8 @@ export default function ReliefSection() {
               </h3>
             </div>
             <p className="text-gray-600 leading-relaxed pr-5 mb-10 -mt-5">
-              Collaborating with local authorities, faith groups, and civil
-              society to provide joined-up and long-term relief.
+               {`Collaborating with local authorities, faith groups, and civil
+              society to provide joined-up and long-term relief.`}
             </p>
           </div>
         </div>

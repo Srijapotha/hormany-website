@@ -14,8 +14,8 @@ const CharityAdvisory = () => {
 
             <div className="space-y-3 text-gray-600 text-[17px] leading-relaxed">
               <p>
-                Access expert consultancy to support your organisational
-                development.
+               {` Access expert consultancy to support your organisational
+                development.`}
               </p>
 
               <p className="font-medium text-gray-700">
@@ -28,9 +28,9 @@ const CharityAdvisory = () => {
               </p>
 
               <p>
-                We are here to offer as much or as little support as you
+               {` We are here to offer as much or as little support as you
                 require, whether planning a transformational culture or just
-                needing aid with a specific project.
+                needing aid with a specific project.`}
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const CharityAdvisory = () => {
             <Card className="bg-[#0F172A] border-[#0F172A] h-full justify-center">
               <CardContent className="p-6 flex items-center">
                 <p className="text-white text-sm leading-relaxed">
-                  Being a valuable critic to test ideas and create new plans
+                  {`Being a valuable critic to test ideas and create new plans`}
                 </p>
               </CardContent>
             </Card>
@@ -59,16 +59,16 @@ const CharityAdvisory = () => {
             <Card className="bg-[#0F172A] border-[#0F172A] h-full justify-center">
               <CardContent className="p-6 flex items-center">
                 <p className="text-white text-sm leading-relaxed">
-                  Arranging focus groups, interviews, or workshops to examine
-                  possibilities and challenges and generate possible solutions
+                  {`Arranging focus groups, interviews, or workshops to examine
+                  possibilities and challenges and generate possible solutions`}
                 </p>
               </CardContent>
             </Card>
             <Card className="bg-[#F26D4A] border-[#F26D4A] h-full justify-center">
               <CardContent className="p-6 flex items-center">
                 <p className="text-white text-sm leading-relaxed">
-                  Perform competitor analysis and research to gain the necessary
-                  knowledge to make decisions.
+                  {`Perform competitor analysis and research to gain the necessary
+                  knowledge to make decisions.`}
                 </p>
               </CardContent>
             </Card>

@@ -24,16 +24,16 @@ const IndividualContribution = () => {
             Find a Charity
           </h3>
           <p className="text-gray-600 mb-5 text-sm md:text-base leading-[26px]">
-            Please search our database of charities and donate to the
-            organisation that means the most to you.
+            {`Please search our database of charities and donate to the
+            organisation that means the most to you.`}
           </p>
 
           <h4 className="font-semibold text-gray-800 mb-2 text-base md:text-lg">
             Contributions Simplified
           </h4>
           <p className="text-gray-600 mb-5 text-sm md:text-base leading-[26px]">
-            You can use our charitable database to identify and donate to
-            the causes you hold dear to your heart.
+           {` You can use our charitable database to identify and donate to
+            the causes you hold dear to your heart.`}
           </p>
 
           <Card className="bg-white rounded-3xl border-l-4 border-blue-600 mb-8 shadow-sm">
@@ -61,8 +61,8 @@ const IndividualContribution = () => {
             >
               <span className="block font-semibold">Get a Donor Account</span>
               <span className="text-sm">
-                Get a Donor Account to Contribute financially to Charities/
-                Projects.
+               {` Get a Donor Account to Contribute financially to Charities/
+                Projects.`}
               </span>
             </a>
             <a
@@ -71,8 +71,8 @@ const IndividualContribution = () => {
             >
               <span className="block font-semibold">Register as a Volunteer</span>
               <span className="text-sm">
-                Register with us to contribute your time to the welfare of
-                living forms.
+                {`Register with us to contribute your time to the welfare of
+                living forms.`}
               </span>
             </a>
           </div>

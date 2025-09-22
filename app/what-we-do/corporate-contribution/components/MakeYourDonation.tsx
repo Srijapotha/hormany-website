@@ -12,13 +12,13 @@ const MakeYourDonations = () => {
             Make your Donations Effective
           </h3>
           <p className="text-white mb-5 leading-relaxed">
-            Make your donations effective by deploying transparency in our operations so that every donation directly benefits the intended recipients. Our esteemed corporate partner, Baseel Group, covers all operational and logistic expenses. This commitment means that every penny donated goes directly to those in need, underscoring our dedication to openness and accountability.
+            {`Make your donations effective by deploying transparency in our operations so that every donation directly benefits the intended recipients. Our esteemed corporate partner, Baseel Group, covers all operational and logistic expenses. This commitment means that every penny donated goes directly to those in need, underscoring our dedication to openness and accountability.`}
           </p>
           <p className="text-white mb-5 leading-relaxed">
-            Our platform provides a complete life cycle to help you with your contributions. Our due diligence steps ensure that 100% of your donation reaches those in need, ensuring transparency to witness the tangible results of their support and producing measurable impact.
+            {`Our platform provides a complete life cycle to help you with your contributions. Our due diligence steps ensure that 100% of your donation reaches those in need, ensuring transparency to witness the tangible results of their support and producing measurable impact.`}
           </p>
           <p className="text-white mb-5 leading-relaxed">
-            There may not be a standard, impactful way to donate that works for everyone. Our work is personalised and powered by the goals of your company. Research and analysis, planning and implementation, impact quantification and augmentation tools, practical internal and external engagement, and delivery through customized grantmaking and social investment initiatives are all included.
+            {`There may not be a standard, impactful way to donate that works for everyone. Our work is personalised and powered by the goals of your company. Research and analysis, planning and implementation, impact quantification and augmentation tools, practical internal and external engagement, and delivery through customized grantmaking and social investment initiatives are all included.`}
           </p>
           <p className="text-white mb-5 font-extrabold leading-relaxed">
             {`Donate more effectively by aligning your company’s contribution aims with the requirements of the charities.
