@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function StrategicAdvicePage() {
   return (
-    <section className="py-10 md:py-16 lg:py-20 bg-white">
+    <section className="p-[40px_10px_40px_10px] md:p-[6%]">
       <div className="container mx-auto px-5 max-w-6xl">
         <div className="flex flex-col items-center justify-center lg:flex-row gap-8 md:gap-10 lg:gap-12 lg:max-h-[1110px]">
           {/* Left side - Image (40% width) */}
@@ -18,7 +18,7 @@ export default function StrategicAdvicePage() {
           {/* Right side - Content (70% width) */}
           <div className="w-full lg:w-[60%] space-y-6 md:space-y-8 mt-8 lg:mt-0">
             <div>
-              <h2 className="text-black text-[34px] font-semibold mb-2" style={{ fontFamily: "Unbounded" }}>Get Strategic advice</h2>
+              <h2 className="text-start text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A]  leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Get Strategic advice</h2>
             </div>
             <div>
               <h3 className="text-blue-500 text-[20px] font-semibold mb-2">Impact advisory</h3>

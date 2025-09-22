@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function StrategicAdvicePage() {
   return (
-    <section className="py-10 md:py-16 lg:py-20 bg-white">
+    <section className="p-[40px_10px_40px_10px] md:p-[6%]">
       <div className="container mx-auto px-5 max-w-6xl">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4" style={{ fontFamily: "Unbounded" }}>Get Strategic advice</h2>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Get Strategic advice</h2>
         <p className="text-gray-500 text-base md:text-lg leading-relaxed mb-8 md:mb-12 lg:mb-16 max-w-5xl">
           We&apos;ll be able to help you define the impact by working closely to identify your giving goals, and we hope to create 
           and develop a strategy to achieve them. This will involve researching specific causes, identifying relevant 

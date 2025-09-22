@@ -17,10 +17,10 @@ export default function MissionPage() {
       >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-700 to-gray-900 opacity-1"></div>
         <div className="relative z-10 max-w-4xl px-5 animate-fade-in-up flex flex-col items-center ">
-          <h1 className="text-5xl md:text-6xl font-normal mb-5 leading-tight text-shadow-lg max-w-3xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-[40px] sm:leading-[50px] md:leading-[65px] lg:leading-[70px]" style={{ fontFamily: "Unbounded" }}>
             Over Mission & Global Presence
           </h1>
-          <p className="text-xl md:text-2xl font-light max-w-5xl mx-auto text-shadow-md">
+          <p className="text-lg md:text-xl mt-4">
             HarmonyOverHate is committed to building a world where diversity is
             celebrated, rights are protected, and communities thrive together.
           </p>

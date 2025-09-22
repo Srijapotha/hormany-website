@@ -10,7 +10,7 @@ export default function HomePage() {
         <>
       {/* Hero section */}
             <div
-                className="relative w-full h-[60vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
+                className="relative w-full h-[50vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
                 style={{
                     backgroundImage: `url(${MissionHeroBanner.src})`,
                     backgroundSize: "cover",

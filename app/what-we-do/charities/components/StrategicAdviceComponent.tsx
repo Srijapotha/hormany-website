@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function StrategicAdvicePage() {
   return (
-    <section className="py-10 md:py-16 lg:py-20 bg-white">
+    <section className="p-[40px_10px_40px_10px] md:p-[6%]">
       <div className="container mx-auto px-5 max-w-6xl">
         <div className="flex flex-col items-center justify-center lg:flex-row gap-8 md:gap-10 lg:gap-12 lg:max-h-[1110px]">
           {/* Left side - Image (40% width) */}

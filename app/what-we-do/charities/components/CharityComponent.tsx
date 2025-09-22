@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const CharityAdvisory = () => {
   return (
-    <div className="bg-white md:px-24 md:py-8 p-8">
+    <div className="p-[40px_10px_40px_10px] md:p-[6%]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         {/* Left Column - Main Content */}
         <div className="space-y-8 bg-[#F4F7FD] p-10 rounded-2xl">
@@ -39,7 +39,7 @@ const CharityAdvisory = () => {
         {/* Right Column - Cards Grid */}
         <div className="grid grid-rows-2 gap-4">
           {/* First Row - Two Cards */}
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
             <div className="flex justify-center items-center text-center bg-white rounded-2xl p-6">
               <h2 className="text-xl font-semibold text-gray-900">
                 We are prepared to support you by:
@@ -55,7 +55,7 @@ const CharityAdvisory = () => {
           </div>
 
           {/* Second Row - Two Cards */}
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
             <Card className="bg-[#0F172A] border-[#0F172A] h-full justify-center">
               <CardContent className="p-6 flex items-center">
                 <p className="text-white text-sm leading-relaxed">

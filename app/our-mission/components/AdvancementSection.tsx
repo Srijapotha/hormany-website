@@ -33,20 +33,20 @@ export default function AdvancementSection() {
     },
   ];  
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="p-[40px_10px_40px_10px] md:p-[6%]">
       <div className="container mx-auto px-5 max-w-6xl">
         <div className="text-center mb-16 relative z-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 leading-tight">
-            Advancement of Human Rights, Equality and Diversity
+          <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[35px] sm:leading-[45px] md:leading-[50px]" style={{ fontFamily: "Unbounded" }}>
+            Advancement of Human Rights, Equality <br/>and Diversity
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-center text-[#64748B] text-base font-normal leading-relaxed md:-mt-10 -mt-5">
             To advance human rights, equality, and diversity for the public
             benefit by
           </p>
         </div>
 
         {/* Change grid container to UL */}
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8  mx-auto">
           {advanceSectionData.map((item, index) => (
             <li
               key={index}

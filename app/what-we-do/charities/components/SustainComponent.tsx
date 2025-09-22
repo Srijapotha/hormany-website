@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export default function SustainChanges() {
   return (
-    <section className="py-20 bg-white">
+    <section className="p-[40px_10px_40px_10px] md:p-[4%] bg-[#F4F7FD]">
       <div className="container mx-auto px-5 max-w-6xl">
         <h2 className="text-center text-2xl font-bold text-gray-900 mb-4" style={{ fontFamily: "Unbounded" }}>
           Sustainable Change
