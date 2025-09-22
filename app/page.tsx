@@ -1,10 +1,9 @@
 "use client";
 import { Banner, Intro, Map, Program1, Program2, Program3, Program4, Program5, Project1, Project2, Project3, Project4, Project5 } from "@/assets";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Pagination, PaginationContent, PaginationItem, PaginationLink } from "@/components/ui/pagination";
-import { ChartNoAxesCombined, Check, ChevronDown, Eye, Handshake, Heart, MoveRight, User } from "lucide-react";
+import { Check, ChevronDown, Handshake, Heart, MoveRight, User } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -99,51 +98,47 @@ export default function Home() {
 
       <div className="lg:container lg:max-w-7xl mx-auto px-6 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <Image alt="" src={Intro} />
-          <div className="relative p-8 md:pl-8 md:pr-5 rounded-4xl flex flex-col justify-center overflow-hidden bg-[#2e6be626]  md:bg-transparent">
+          <Image alt="" src={Intro} className="rounded-4xl" />
+          <div className="p-8 md:pl-8 md:pr-5 rounded-4xl flex flex-col justify-center bg-[#2e6be626]">
 
-            {/* <div className="absolute top-0 left-0 h-full w-full bg-[#2e6be626] transform skew-x-3 translate-y-4 origin-right rounded-3xl z-0 shadow-inner" /> */}
 
-            <div className="relative z-10">
-              <h2 className="text-2xl md:text-[34px] font-bold mb-2">About Us</h2>
+            <h2 className="text-2xl md:text-[34px] font-bold mb-2">About Us</h2>
 
-              <CardDescription className="text-justify text-base">
-                HarmonyOverHate is a global charity dedicated to creating a world where dignity, equality, and respect are the foundation of every community. We work to support victims of hate, promote dialogue across faiths, empower through education, and strengthen communities for lasting harmony.
-              </CardDescription>
+            <CardDescription className="text-justify text-base">
+              HarmonyOverHate is a global charity dedicated to creating a world where dignity, equality, and respect are the foundation of every community. We work to support victims of hate, promote dialogue across faiths, empower through education, and strengthen communities for lasting harmony.
+            </CardDescription>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
-                <div>
-                  <div className="flex gap-3 items-center py-1">
-                    <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">01</span>
-                    <p className="font-semibold">Human Rights Advocacy</p>
-                  </div>
-                  <div className="flex gap-3 items-center py-1">
-                    <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">02</span>
-                    <p className="font-semibold">Support & Relief</p>
-                  </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
+              <div>
+                <div className="flex gap-3 items-center py-1">
+                  <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">01</span>
+                  <p className="font-semibold">Human Rights Advocacy</p>
                 </div>
+                <div className="flex gap-3 items-center py-1">
+                  <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">02</span>
+                  <p className="font-semibold">Support & Relief</p>
+                </div>
+              </div>
 
-                <div>
-                  <div className="flex gap-3 items-center py-1">
-                    <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">03</span>
-                    <p className="font-semibold">Interfaith Harmony</p>
-                  </div>
-                  <div className="flex gap-3 items-center py-1">
-                    <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">04</span>
-                    <p className="font-semibold">Education & Development</p>
-                  </div>
+              <div>
+                <div className="flex gap-3 items-center py-1">
+                  <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">03</span>
+                  <p className="font-semibold">Interfaith Harmony</p>
+                </div>
+                <div className="flex gap-3 items-center py-1">
+                  <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">04</span>
+                  <p className="font-semibold">Education & Development</p>
                 </div>
               </div>
             </div>
 
-            <div className="absolute hidden md:block top-0 left-0 h-full w-full [clip-path:polygon(0%_20%,100%_0%,100%_100%,0%_100%)] bg-[#2e6be626] transform skew-y-4 translate-x-4 origin-right z-0 shadow-inner " />
 
           </div>
 
         </div>
       </div>
 
-      <div className="lg:container lg:max-w-7xl mx-auto px-6 py-10">
+      {/* <div className="lg:container lg:max-w-7xl mx-auto px-6 py-10">
         <h2 className="text-2xl md:text-[34px] font-bold text-center my-7 md:my-8">Vision & Mission</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-8">
@@ -173,7 +168,7 @@ export default function Home() {
           </div>
         </div>
 
-      </div>
+      </div> */}
 
       <div className="lg:container lg:max-w-7xl mx-auto px-6 py-10">
         <h3 className="text-2xl md:text-[34px] font-bold text-center my-7 md:my-8">Our Programs & Initiatives</h3>
@@ -284,7 +279,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className="my-10">
+      <div className="my-10">
         <div className="block sm:hidden mb-4">
           <div className="relative">
             <button
@@ -322,13 +317,13 @@ export default function Home() {
                 >
                   Corporate Contributions
                 </button>
-                <button
+                {/* <button
                   type="button"
                   className="p-4 w-full text-lg text-left"
                   onClick={() => { setCurrentPage(3); setSelectedPage(3); setIsOpen(false); }}
                 >
                   Charities
-                </button>
+                </button> */}
               </div>
             )}
           </div>
@@ -359,7 +354,7 @@ export default function Home() {
                 Corporate Contributions
               </PaginationLink>
             </PaginationItem>
-            <PaginationItem className="w-full sm:w-auto">
+            {/* <PaginationItem className="w-full sm:w-auto">
               <PaginationLink
                 className={`cursor-pointer text-base font-semibold block md:inline w-full md:w-auto rounded-none p-2 ${currentPage === 3 ? "border-t-2 border-[#2E6BE6] border-x-0 border-b-0 bg-[#2E6BE633]" : ""}`}
                 onClick={() => { setCurrentPage(3); setSelectedPage(3); }}
@@ -369,7 +364,7 @@ export default function Home() {
               >
                 Charities
               </PaginationLink>
-            </PaginationItem>
+            </PaginationItem> */}
           </PaginationContent>
         </Pagination>
 
@@ -379,7 +374,7 @@ export default function Home() {
             <div className="lg:container lg:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
               <div className="col-span-1 group">
                 <Link
-                  href="/what-we-do/individual-contributions"
+                  href="/what-we-do/individual-contribution"
                   className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                 >
                   Individual Contributions
@@ -391,7 +386,7 @@ export default function Home() {
               <div>
                 <div className="mb-4 group">
                   <Link
-                    href="/what-we-do/individual-contributions"
+                    href="/what-we-do/individual-contribution"
                     className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Make your Donations Effective
@@ -402,7 +397,7 @@ export default function Home() {
 
                 <div className="mb-4 group">
                   <Link
-                    href="/what-we-do/individual-contributions"
+                    href="/what-we-do/individual-contribution"
                     className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Amplify your Impact
@@ -413,7 +408,7 @@ export default function Home() {
 
                 <div className="mb-4 group">
                   <Link
-                    href="/what-we-do/individual-contributions"
+                    href="/what-we-do/individual-contribution"
                     className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Resources to make your Donations Effective
@@ -436,56 +431,61 @@ export default function Home() {
                   <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                 </Link>
                 <CardDescription className="text-justify text-base">
+                  Customized CSR programs and employee engagement initiatives to amplify your company's social impact.
                 </CardDescription>
               </div>
 
               <div>
+                <div className="mb-4 group">
+                  <Link
+                    href="/what-we-do/corporate-contribution"
+                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                  >
+                    Get a corporate contributions
+                    <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+                  </Link>
+                  <CardDescription className="text-justify">Register now on our Platform, where we contribute and amplify Greatness.</CardDescription>
+                </div>
+
+                <div className="mb-4 group">
+                  <Link
+                    href="/what-we-do/corporate-contribution"
+                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                  >
+                    Make your donations effective
+                    <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+                  </Link>
+                  <CardDescription className="text-justify">{`We combine our in-depth sector expertise, governance support, and tax-efficient giving solutions to help your company (and your employees) make meaningful change.`}</CardDescription>
+                </div>
+
+                <div className="mb-4 group">
+                  <Link
+                    href="/what-we-do/corporate-contribution"
+                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                  >
+                    Get strategic advice
+                    <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+                  </Link>
+                  <CardDescription className="text-justify">{`Donate more effectively by aligning your company’s contribution aims with the requirements of the charities.`}</CardDescription>
+                </div>
+
                 <div className="mb-4 group">
                   <Link
                     href="/what-we-do/corporate-contributions"
                     className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
-
+                    Resources to make your donations effective
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                   </Link>
-                  <CardDescription className="text-justify"></CardDescription>
+                  <CardDescription className="text-justify">{`Resources to help inspire and inform your corporate contribution.`}</CardDescription>
                 </div>
               </div>
             </div>
 
           </div>
         )}
-        {currentPage === 3 && (
-          <div className="bg-[#2E6BE60D] px-6 py-10">
-            <div className="lg:container lg:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
-              <div className="col-span-1 group">
-                <Link href="/what-we-do/charities" className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100">
-                  Charities
-                  <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                </Link>
-                <CardDescription className="text-justify">
-                </CardDescription>
-              </div>
-              <div>
 
-                <div className="mb-4 group">
-                  <Link
-                    href="/what-we-do/charities"
-                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
-                  >
-
-
-                    <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                  </Link>
-                  <CardDescription className="text-justify text-sm"> </CardDescription>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-        )}
-      </div> */}
+      </div>
 
       <div className="bg-gradient-to-r from-[#2E6BE6] to-[#7A60D1] p-[40px_10px_40px_10px] md:p-[6%]">
         <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#ffffff] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
@@ -504,9 +504,9 @@ export default function Home() {
               <p className="text-white text-base text-center -mt-4">
                 Join our global network of volunteers making change in their communities.
               </p>
-              <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
+              {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                 Get Started
-              </Button>
+              </Button> */}
             </CardContent>
           </Card>
 
@@ -519,9 +519,9 @@ export default function Home() {
               <p className="text-white text-base text-center -mt-4">
                 Support our programs and help us reach more communities in need.
               </p>
-              <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
+              {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                 Get Started
-              </Button>
+              </Button> */}
             </CardContent>
           </Card>
 
@@ -534,9 +534,9 @@ export default function Home() {
               <p className="text-white text-base text-center -mt-4">
                 Collaborate with us to amplify impact in your organization or community.
               </p>
-              <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px- hover:bg-[#ffffff]">
+              {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px- hover:bg-[#ffffff]">
                 Get Started
-              </Button>
+              </Button> */}
             </CardContent>
           </Card>
         </div>

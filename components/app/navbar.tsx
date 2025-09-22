@@ -76,9 +76,9 @@ const Navbar = () => {
                     >
                       What Sets Us Apart
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => router.push("/who-we-are/team")}>
+                    {/* <DropdownMenuItem onClick={() => router.push("/who-we-are/team")}>
                       Our Team
-                    </DropdownMenuItem>
+                    </DropdownMenuItem> */}
                   </DropdownMenuContent>
                 </DropdownMenu>
               </NavigationMenuItem>
@@ -100,16 +100,16 @@ const Navbar = () => {
                     >
                       Corporate Contributions
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => router.push("/what-we-do/charities")}>
+                    {/* <DropdownMenuItem onClick={() => router.push("/what-we-do/charities")}>
                       Charities
-                    </DropdownMenuItem>
+                    </DropdownMenuItem> */}
                   </DropdownMenuContent>
                 </DropdownMenu>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
                 <DropdownMenu>
-                  <DropdownMenuTrigger className="flex items-center text-[#0F172A] font-normal font-base hover:text-[#22A06B] transition-all cursor-pointer">
+                  <DropdownMenuTrigger className="flex items-center text-[#0F172A] font-medium font-base hover:text-[#22A06B] transition-all cursor-pointer">
                     Our Program & Initiatives <ChevronDown className="ml-1 w-4 h-4" />
                   </DropdownMenuTrigger>
                   <DropdownMenuContent>
@@ -227,7 +227,7 @@ const Navbar = () => {
                           What Sets Us Apart
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link
                           href="/who-we-are/team"
                           onClick={closeSheet}
@@ -235,7 +235,7 @@ const Navbar = () => {
                         >
                           Our Team
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -267,7 +267,7 @@ const Navbar = () => {
                           Corporate Contributions
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link
                           href="/what-we-do/charities"
                           onClick={closeSheet}
@@ -275,7 +275,7 @@ const Navbar = () => {
                         >
                           Charities
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

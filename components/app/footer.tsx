@@ -38,23 +38,23 @@ export default function Footer() {
             </p>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <Link href="/about-us" className=" text-[#D1D5DB] text-base text-normal">
+                <Link href="/our-mission" className=" text-[#D1D5DB] text-base text-normal">
+                  Our Mission
+                </Link>
+              </li>
+              <li>
+                <Link href="/who-we-are/about-us" className=" text-[#D1D5DB] text-base text-normal">
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link href="/what-sets-us-apart" className=" text-[#D1D5DB] text-base text-normal">
-                  Our Programs
+              {/* <li>
+                <Link href="/who-we-are/our-team" className=" text-[#D1D5DB] text-base text-normal">
+                  Our Team
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="/projects" className=" text-[#D1D5DB] text-base text-normal">
-                  Global Impact
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className=" text-[#D1D5DB] text-base text-normal">
-                  Success Stories
+                <Link href="/who-we-are/what-sets-us-apart" className=" text-[#D1D5DB] text-base text-normal">
+                  What Sets Us Apart
                 </Link>
               </li>
             </ul>
@@ -63,33 +63,39 @@ export default function Footer() {
           {/* Get Involved */}
           <div>
             <p className="text-lg font-semibold text-white font-bold mb-3  w-fit">
-              Get Involved
+              Our Programs & Initiatives
             </p>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <Link href="/individual-contributions" className=" text-[#D1D5DB] text-base text-normal">
-                  Volunteer
+                <Link href="/our-programs-initiatives/human-rights-advocacy" className=" text-[#D1D5DB] text-base text-normal">
+                  Human Rights & Advocacy
                 </Link>
               </li>
               <li>
-                <Link href="/corporate-contributions" className=" text-[#D1D5DB] text-base text-normal">
-                  Donate
+                <Link href="/our-programs-initiatives/interfaith-community-harmony" className=" text-[#D1D5DB] text-base text-normal">
+                  Interfaith & Community Harmony
                 </Link>
               </li>
               <li>
-                <Link href="/charities" className=" text-[#D1D5DB] text-base text-normal">
-                  Partner With Us
+                <Link href="/our-programs-initiatives/support-relief" className=" text-[#D1D5DB] text-base text-normal">
+                  Support & Relief
+
                 </Link>
               </li>
               <li>
-                <Link href="/slavery-and-human-trafficking" className=" text-[#D1D5DB] text-base text-normal">
-                  Join Campaigns
+                <Link href="/our-programs-initiatives/community-development" className=" text-[#D1D5DB] text-base text-normal">
+                  Community Development
+                </Link>
+              </li>
+              <li>
+                <Link href="/our-programs-initiatives/education-scholarship" className=" text-[#D1D5DB] text-base text-normal">
+                  Education & Scholarship
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Contact Us */}
+          
           <div>
             <p className="text-lg font-semibold text-white font-bold mb-3  w-fit">
               Contact Us
@@ -111,7 +117,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="w-full bg-black py-3">
         <p className="text-center text-gray-300 text-sm">
-          Copyright © | All Rights Reserved 
+          Copyright © | All Rights Reserved
           {/* |{" "}
           <Link href="/terms-and-conditions" className="hover:text-[#69b3f8fb] transition">
             Terms

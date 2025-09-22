@@ -32,7 +32,7 @@ export default function HomePage() {
        {/** Amplify Your Impact  */}
        <ImpactComponent />
        {/** Get Strategic Advice  */}
-       <StrategicAdviceComponent />
+       {/* <StrategicAdviceComponent /> */}
        {/** Join Our Moment  */}
        <JoinOurMomentComponent />
 
