@@ -10,7 +10,7 @@ export default function MissionPage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section
-        className="relative h-[500px] flex items-center justify-center text-center text-white overflow-hidden bg-cover bg-center bg-no-repeat"
+        className="relative w-full h-[55vh] sm:h-[60vh] md:h-[60vh] lg:h-[60vh] xl:h-[60vh] p-[40px_10px_40px_10px] flex items-center justify-center text-center text-white overflow-hidden bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(${MissionHeroBanner.src})`,
         }}

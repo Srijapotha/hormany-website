@@ -1,7 +1,7 @@
 
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import Image from "next/image"
-import {MissionHeroBanner,Economic_Transparency} from "@/assets"
+import { MissionHeroBanner, Economic_Transparency } from "@/assets"
 
 
 export default function whatsetsusapart() {
@@ -9,7 +9,7 @@ export default function whatsetsusapart() {
         <>
             {/* Hero section */}
             <div
-                className="relative w-full h-[60vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
+                className="relative w-full w-full h-[55vh] sm:h-[60vh] md:h-[60vh] lg:h-[60vh] xl:h-[60vh] p-[40px_10px_40px_10px] flex items-center justify-center text-center overflow-hidden shadow-lg"
                 style={{
                     backgroundImage: `url(${MissionHeroBanner.src})`,
                     backgroundSize: "cover",
@@ -28,81 +28,77 @@ export default function whatsetsusapart() {
 
 
 
-            {/* Vision & Mission */}
-            <div className="bg-[#ffffff] p-[40px_10px_40px_10px] md:p-[6%]">
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-6xl mx-auto">
-                    <Card className="rounded-2xl border-l-4 border-[#2E6BE6] shadow-md hover:shadow-lg transition p-6 bg-white">
-                        <CardHeader className="flex flex-col items-start gap-3">
-                            <p className="bg-[#2E6BE6] py-2.5 px-5 rounded-full text-white text-xl font-bold mb-3">1</p>
-                            <h3 className="text-xl font-bold text-[#0F172A]">Transparency</h3>
-                        </CardHeader>
-                        <CardContent>
-                            <p className="text-[#64748B] text-base font-normal -mt-4">
-                            </p>
-                        </CardContent>
-                    </Card>
+            {/* What Distinguishes Us */}
+           <div className="bg-[#ffffff] p-[40px_10px_40px_10px] md:p-[6%]">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    
+    <Card className="rounded-2xl border-l-4 border-[#2E6BE6] shadow-md hover:shadow-lg transition p-6 bg-white">
+      <CardHeader className="flex flex-col items-start gap-3">
+        <p className="bg-[#2E6BE6] py-2.5 px-5 rounded-full text-white text-xl font-bold mb-3">1</p>
+        <h3 className="text-xl font-bold text-[#0F172A]">Transparency</h3>
+      </CardHeader>
+      <CardContent>
+        <p className="text-[#64748B] text-base font-normal -mt-4"></p>
+      </CardContent>
+    </Card>
 
-                    <Card className="rounded-2xl border-l-4 border-[#7A60D1] shadow-md hover:shadow-lg transition p-6 bg-white">
-                        <CardHeader className="flex flex-col items-start gap-3">
-                            <p className="bg-[#7A60D1] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">2</p>
-                            <h3 className="text-xl font-bold text-[#0F172A]">International Reach</h3>
-                        </CardHeader>
-                        <CardContent>
-                            <p className="text-[#64748B] text-base font-normal -mt-4">
-                            </p>
-                        </CardContent>
-                    </Card>
+    <Card className="rounded-2xl border-l-4 border-[#7A60D1] shadow-md hover:shadow-lg transition p-6 bg-white">
+      <CardHeader className="flex flex-col items-start gap-3">
+        <p className="bg-[#7A60D1] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">2</p>
+        <h3 className="text-xl font-bold text-[#0F172A]">International Reach</h3>
+      </CardHeader>
+      <CardContent>
+        <p className="text-[#64748B] text-base font-normal -mt-4"></p>
+      </CardContent>
+    </Card>
 
+    <Card className="rounded-2xl border-l-4 border-[#F6C33B] shadow-md hover:shadow-lg transition p-6 bg-white">
+      <CardHeader className="flex flex-col items-start gap-3">
+        <p className="bg-[#F6C33B] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">3</p>
+        <h3 className="text-xl font-bold text-[#0F172A]">Empowerment Beyond Aid</h3>
+      </CardHeader>
+      <CardContent>
+        <p className="text-[#64748B] text-base font-normal -mt-4"></p>
+      </CardContent>
+    </Card>
 
-                    <Card className="rounded-2xl border-l-4 border-[#F6C33B] shadow-md hover:shadow-lg transition p-6 bg-white">
-                        <CardHeader className="flex flex-col items-start gap-3">
-                            <p className="bg-[#F6C33B] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">3</p>
-                            <h3 className="text-xl font-bold text-[#0F172A]">Empowerment Beyond Aid</h3>
-                        </CardHeader>
-                        <CardContent>
-                            <p className="text-[#64748B] text-base font-normal -mt-4">
-                            </p>
-                        </CardContent>
-                    </Card>
+    <Card className="rounded-2xl border-l-4 border-[#F26D4A] shadow-md hover:shadow-lg transition p-6 bg-white">
+      <CardHeader className="flex flex-col items-start gap-3">
+        <p className="bg-[#F26D4A] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">4</p>
+        <h3 className="text-xl font-bold text-[#0F172A]">Inclusivity</h3>
+      </CardHeader>
+      <CardContent>
+        <p className="text-[#64748B] text-base font-normal -mt-4"></p>
+      </CardContent>
+    </Card>
 
-                    <Card className="rounded-2xl border-l-4 border-[#F26D4A] shadow-md hover:shadow-lg transition p-6 bg-white">
-                        <CardHeader className="flex flex-col items-start gap-3">
-                            <p className="bg-[#F26D4A] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">3</p>
-                            <h3 className="text-xl font-bold text-[#0F172A]">Inclusivity</h3>
-                        </CardHeader>
-                        <CardContent>
-                            <p className="text-[#64748B] text-base font-normal -mt-4">
-                            </p>
-                        </CardContent>
-                    </Card>
+    <Card className="rounded-2xl border-l-4 border-[#22A06B] shadow-md hover:shadow-lg transition p-6 bg-white">
+      <CardHeader className="flex flex-col items-start gap-3">
+        <p className="bg-[#22A06B] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">5</p>
+        <h3 className="text-xl font-bold text-[#0F172A]">Sustainable Change</h3>
+      </CardHeader>
+      <CardContent>
+        <p className="text-[#64748B] text-base font-normal -mt-4"></p>
+      </CardContent>
+    </Card>
 
+    <Card className="rounded-2xl border-l-4 border-[#64748B] shadow-md hover:shadow-lg transition p-6 bg-white">
+      <CardHeader className="flex flex-col items-start gap-3">
+        <p className="bg-[#64748B] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">6</p>
+        <h3 className="text-xl font-bold text-[#0F172A]">Empowerment Beyond Aid</h3>
+      </CardHeader>
+      <CardContent>
+        <p className="text-[#0F172A] text-base font-normal -mt-4"></p>
+      </CardContent>
+    </Card>
 
-                    <Card className="rounded-2xl border-l-4 border-[#22A06B] shadow-md hover:shadow-lg transition p-6 bg-white">
-                        <CardHeader className="flex flex-col items-start gap-3">
-                            <p className="bg-[#22A06B] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">3</p>
-                            <h3 className="text-xl font-bold text-[#0F172A]">Sustainable Change</h3>
-                        </CardHeader>
-                        <CardContent>
-                            <p className="text-[#64748B] text-base font-normal -mt-4">
-                            </p>
-                        </CardContent>
-                    </Card>
-
-
-                    <Card className="rounded-2xl border-l-4 border-[#64748B] shadow-md hover:shadow-lg transition p-6 bg-white">
-                        <CardHeader className="flex flex-col items-start gap-3">
-                            <p className="bg-[#64748B] py-3 px-5 rounded-full text-white text-xl font-bold mb-3">3</p>
-                            <h3 className="text-xl font-bold text-[#0F172A]">Empowerment Beyond Aid</h3>
-                        </CardHeader>
-                        <CardContent>
-                            <p className="text-[#0F172A] text-base font-normal -mt-4">
-                            </p>
-                        </CardContent>
-                    </Card>
-                </div>
-            </div>
+  </div>
+</div>
 
 
+
+
+            {/* Economic Transparency */}
             <div className="bg-[#2E6BE60D] p-[25px_10px_25px_10px] md:p-[6%]">
 
                 <h2

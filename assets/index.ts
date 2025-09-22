@@ -41,13 +41,13 @@ import WhatWeDoCorporateImage1 from "./images/whatwedo/corporateteam.webp";
 import WhatWeDoCorporateImage2 from "./images/whatwedo/corporateteamimage2.webp";
 import WhatWeDoCorporateImage3 from "./images/whatwedo/groupimage.webp";
 import WhatWeDoCorporateImage4 from "./images/whatwedo/corporateteam2.webp";
-import Paresh_Deshmukh from "./images/Team/Paresh_Deshmukh.webp"
-import Luis from "./images/Team/Luis.webp"
-import suki from "./images/Team/suki.webp"
-import salman from "./images/Team/salman.webp"
-import Poorva_Deshmukh from "./images/Team/Poorva_Deshmukh.webp"
-import Vijay_Pattar from "./images/Team/Vijay_Pattar.webp"
-import Sushil_Gaikwad from "./images/Team/Sushil_Gaikwad.webp"
+import Paresh_Deshmukh from "./images/Team/Paresh_Deshmukh.png"
+import Luis from "./images/Team/luis.png"
+import suki from "./images/Team/suki.png"
+import salman from "./images/Team/salman.png"
+import Poorva_Deshmukh from "./images/Team/Poorva_Deshmukh.png"
+import Vijay_Pattar from "./images/Team/Vijay_Pattar.png"
+import Sushil_Gaikwad from "./images/Team/Sushil_Gaikwad.png"
 import missionImage from "./images/ourmission/missionImage.webp"
 import Economic_Transparency from "./images/Economic_Transparency.webp"
 
