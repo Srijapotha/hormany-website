@@ -7,10 +7,9 @@ const AdvisoryComponent: React.FC = () => {
     <div className="p-[40px_10px_40px_10px] md:p-[6%]">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[35px] sm:leading-[45px] md:leading-[50px]" style={{ fontFamily: "Unbounded" }}>
-          Would you happen to know how our
-          <br />
-          Advisory works?
+        <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[35px] sm:leading-[45px] md:leading-[50px]">
+          {`Would you happen to know how our
+          Advisory works?`}
         </h1>
       </div>
 
@@ -21,19 +20,19 @@ const AdvisoryComponent: React.FC = () => {
             <div className="flex items-start mb-4">
               <span className="text-yellow-400 mr-2">✦</span>
               <h3 className="text-lg md:text-xl font-semibold text-gray-900">
-                Magnitude inspires us
+                {`Magnitude inspires us`}
               </h3>
             </div>
             <div className="space-y-4 text-gray-600 text-sm leading-relaxed ml-6">
               <p>
-                Magnitude is essential to bringing about substantial change, in
+                {`Magnitude is essential to bringing about substantial change, in
                 our opinion. Our main objective is to utilise impactful thinking
-                and models in a corporate setting.
+                and models in a corporate setting.`}
               </p>
               <p>
-                We assist companies in achieving the social and environmental
+                {`We assist companies in achieving the social and environmental
                 goals that underpin their operations, which benefits them, their
-                clients, and their staff significantly.
+                clients, and their staff significantly.`}
               </p>
             </div>
           </div>
@@ -50,13 +49,13 @@ const AdvisoryComponent: React.FC = () => {
             <div className="flex items-start mb-4">
               <span className="text-yellow-400 mr-2">✦</span>
               <h3 className="text-lg md:text-xl font-semibold text-gray-900">
-                We function judiciously
+                {`We function judiciously`}
               </h3>
             </div>
             <div className="text-gray-600 text-sm leading-relaxed ml-6">
               <p className="mb-3">
-                Maulee Foundation has enabled global philanthropy and social
-                impact.
+                {`Maulee Foundation has enabled global philanthropy and social
+                impact.`}
               </p>
               <p>
                 {`We strive to disseminate knowledge, research significant trends,
@@ -78,7 +77,7 @@ const AdvisoryComponent: React.FC = () => {
             </div>
             <div className="text-gray-600 text-sm leading-relaxed ml-6">
               <p className="mb-3">
-                {` We are fully aware that collaboration produces the best results.
+                {`We are fully aware that collaboration produces the best results.
                 As a charity and an advisory firm, we offer unbiased, moral
                 guidance. We will take your intention and turn it into a
                 workable plan.`}
@@ -93,7 +92,6 @@ const AdvisoryComponent: React.FC = () => {
             </div>
           </div>
         </div>
-
       </div>
 
       <div className="mt-6 mb-8 ">
@@ -147,23 +145,20 @@ const AdvisoryComponent: React.FC = () => {
 
           <div className="max-w-2xl mx-auto">
             <h3 className="text-[18px] font-semibold text-blue-600 mb-3">
-              Resources to make your Donations Effective
+              {`Resources to make your Donations Effective`}
             </h3>
             <p className="text-[#64748B] text-[16px] mb-4">
-              Resources to help inspire and inform your corporate contribution.
+              {`Resources to help inspire and inform your corporate contribution.`}
             </p>
             <a
               href="#"
               className="text-[#64748B] underline text-[16px] font-medium"
             >
-              Talk to us about the ways we can boost your giving
+              {`Talk to us about the ways we can boost your giving`}
             </a>
           </div>
         </div>
-
       </div>
-
-
     </div>
   );
 };

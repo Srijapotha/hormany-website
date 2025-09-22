@@ -1,5 +1,5 @@
 // app/page.tsx
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Eye, ChartLine, Handshake, Heart, User } from "lucide-react"
 import Image from "next/image"
@@ -31,7 +31,7 @@ export default function aboutus() {
             <div className="p-[40px_10px_40px_10px] md:p-[6%]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Who We Are</h2>
                 <p className="text-center text-[#64748B] text-base font-normal leading-relaxed">
-                    HarmonyOverHate is a global charity dedicated to creating a world where dignity, equality, and <br />respect are the foundation of every community. We work to support victims of hate, promote dialogue<br /> across faiths, empower through education, and strengthen communities for lasting harmony.
+                    {`HarmonyOverHate is a global charity dedicated to creating a world where dignity, equality, and respect are the foundation of every community. We work to support victims of hate, promote dialogue across faiths, empower through education, and strengthen communities for lasting harmony.`}
                 </p>
             </div>
 
@@ -50,10 +50,10 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal">
-                                To build a just, inclusive, and peaceful world where diversity is
+                                {`To build a just, inclusive, and peaceful world where diversity is
                                 celebrated, human rights are upheld, and every individual has the
                                 freedom to live with dignity, equality, and mutual respect in a
-                                thriving global community.
+                                thriving global community.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -66,7 +66,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal">
-                                To challenge hate, prejudice, and discrimination everywhere by supporting victims with care and relief services, promoting dialogue across faiths and cultures, and empowering people through education, advocacy, and unity.
+                                {`To challenge hate, prejudice, and discrimination everywhere by supporting victims with care and relief services, promoting dialogue across faiths and cultures, and empowering people through education, advocacy, and unity.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -91,7 +91,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                                We believe in actively understanding and empathizing with the experiences and challenges of others, without judgment or assumptions. Prioritizing compassion fosters a sense of belonging.
+                                {`We believe in actively understanding and empathizing with the experiences and challenges of others, without judgment or assumptions. Prioritizing compassion fosters a sense of belonging.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -106,7 +106,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                                We believe strength is built through tackling adversity. Hearing diverse perspectives fuels innovation, deepens connections between people, and makes us who we are.
+                                {`We believe strength is built through tackling adversity. Hearing diverse perspectives fuels innovation, deepens connections between people, and makes us who we are.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -121,7 +121,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                                Connecting to the heart of the matter. We listen actively and act with respect and authenticity. We encourage honesty while upholding ethical and professional standards.
+                                {`Connecting to the heart of the matter. We listen actively and act with respect and authenticity. We encourage honesty while upholding ethical and professional standards.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -137,7 +137,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                                We strive for the highest standards in all we do and seek continuous improvement through feedback from our partners and those we serve.
+                                {`We strive for the highest standards in all we do and seek continuous improvement through feedback from our partners and those we serve.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -152,7 +152,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                                We approach the world with a sense of interest and wonder.  We embrace continuous improvement, and change, and are humble enough to learn from every situation.
+                                {`We approach the world with a sense of interest and wonder.  We embrace continuous improvement, and change, and are humble enough to learn from every situation.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -167,7 +167,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                                We do our best with excellence in everything we do. We are passing the torch of mastery. Our transfer of expertise allows for sustainable strategic management.
+                               {` We do our best with excellence in everything we do. We are passing the torch of mastery. Our transfer of expertise allows for sustainable strategic management.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -183,7 +183,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                                We celebrate diversity. We respect all cultures, religions, races, ethnicities, sexual orientations, and political views, and encompass a diverse array of entities of all sizes and types.
+                                {`We celebrate diversity. We respect all cultures, religions, races, ethnicities, sexual orientations, and political views, and encompass a diverse array of entities of all sizes and types.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -198,7 +198,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                                We hold ourselves personally and collectively responsible for following the right steps to assist you and adhering to ethical principles in an environment of openness and honesty.
+                                {`We hold ourselves personally and collectively responsible for following the right steps to assist you and adhering to ethical principles in an environment of openness and honesty.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -213,7 +213,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                                Making a difference fostering a sense of ownership and pride. We approach everything with passion and purpose and know our work is bigger than ourselves.
+                                {`Making a difference fostering a sense of ownership and pride. We approach everything with passion and purpose and know our work is bigger than ourselves.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -230,7 +230,7 @@ export default function aboutus() {
                     Join Our Movement
                 </h2>
                 <p className="text-center mb-8 text-lg text-white max-w-3xl mx-auto">
-                    Every action counts. Whether through volunteering, donating, or spreading awareness, you can make a difference.
+                    {`Every action counts. Whether through volunteering, donating, or spreading awareness, you can make a difference.`}
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
                     <Card className="rounded-2xl border-0 transition bg-[#FFFFFF1A] p-6">
@@ -240,7 +240,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent className="flex flex-col items-center gap-4">
                             <p className="text-white text-base text-center -mt-4">
-                                Join our global network of volunteers making change in their communities.
+                                {`Join our global network of volunteers making change in their communities.`}
                             </p>
                             {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                                 Get Started
@@ -255,7 +255,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent className="flex flex-col items-center gap-4">
                             <p className="text-white text-base text-center -mt-4">
-                                Support our programs and help us reach more communities in need.
+                                {`Support our programs and help us reach more communities in need.`}
                             </p>
                             {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                                 Get Started
@@ -270,7 +270,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent className="flex flex-col items-center gap-4">
                             <p className="text-white text-base text-center -mt-4">
-                                Collaborate with us to amplify impact in your organization or community.
+                                {`Collaborate with us to amplify impact in your organization or community.`}
                             </p>
                             {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px- hover:bg-[#ffffff]">
                                 Get Started

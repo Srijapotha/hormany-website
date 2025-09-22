@@ -21,7 +21,7 @@ export default function SupportRelif() {
                         Support & Relief
                     </h1>
                     <p className="text-lg md:text-xl">
-                        Join us in the fight for justice and equality together we can make a difference
+                        {`Join us in the fight for justice and equality together we can make a difference`}
                     </p>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function SupportRelif() {
             <div className="p-[40px_10px_40px_10px] md:p-[6%]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Why Support & Relief Matters</h2>
                 <p className="text-center text-[#64748B] text-base font-normal leading-relaxed">
-                    Support and relief are crucial in helping individuals and communities recover from disasters. conflicts, and <br />other hardships. Our work focuses on providing essential resources, fostering resilience, and empowering <br />people to rebuild their lives.
+                    {`Support and relief are crucial in helping individuals and communities recover from disasters. conflicts, and other hardships. Our work focuses on providing essential resources, fostering resilience, and empowering people to rebuild their lives.`}
 
                 </p>
             </div>
@@ -49,7 +49,7 @@ export default function SupportRelif() {
                             Direct Support Services
                         </h3>
                         <p className="text-[#64748B] text-base text-start">
-                            Providing immediate aid such as food, shelter, and medical care to those affected by crises.
+                            {`Providing immediate aid such as food, shelter, and medical care to those affected by crises.`}
                         </p>
                     </div>
 
@@ -59,7 +59,7 @@ export default function SupportRelif() {
                             Grants & Assistance
                         </h3>
                         <p className="text-[#64748B] text-base text-start">
-                            Offering financial grants and assistance programs to support individuals and families in need.
+                            {`Offering financial grants and assistance programs to support individuals and families in need.`}
                         </p>
                     </div>
 
@@ -69,7 +69,7 @@ export default function SupportRelif() {
                             Crisis Relief & Recovery
                         </h3>
                         <p className="text-[#64748B] text-base text-start">
-                            Responding to emergencies and disasters with rapid relief efforts and long-term recovery programs.
+                            {`Responding to emergencies and disasters with rapid relief efforts and long-term recovery programs.`}
                         </p>
                     </div>
 
@@ -79,7 +79,7 @@ export default function SupportRelif() {
                             Community Partnerships
                         </h3>
                         <p className="text-[#64748B] text-base text-start">
-                            Collaborating with local organizations to strengthen community resilience and support sustainable solutions.
+                            {`Collaborating with local organizations to strengthen community resilience and support sustainable solutions.`}
                         </p>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ export default function SupportRelif() {
 
 
             {/* Stories of Hope*/}
-            <div className="bg-white p-[40px_10px_40px_10px] md:p-[6%]">
+            {/* <div className="bg-white p-[40px_10px_40px_10px] md:p-[6%]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
                     Stories of Hope
                 </h2>
@@ -132,7 +132,7 @@ export default function SupportRelif() {
                     </Card>
                     
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Interfaith_Community_Harmony_hero,Community_Development } from "@/assets"
-import Image from "next/image"
+// import Image from "next/image"
 
 export default function CommunityDevelopment() {
     return (
@@ -21,7 +21,7 @@ export default function CommunityDevelopment() {
                         Community Development
                     </h1>
                     <p className="text-lg md:text-xl">
-                        Join us in the fight for justice and equality together we can make a difference
+                        {` Join us in the fight for justice and equality together we can make a difference`}
                     </p>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function CommunityDevelopment() {
             <div className="p-[40px_10px_40px_10px] md:p-[6%]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>Why Community Development Matters</h2>
                 <p className="text-center text-[#64748B] text-base font-normal leading-relaxed md:-mt-10 -mt-5">
-                    Communities are strongest when everyone has the opportunity to participate, contribute, and belong. Our Community <br />Development initiatives focus on reducing prejudice, promoting active citizenship, and creating spaces where people of all <br />faiths and backgrounds can work together for the common good.
+                    {`Communities are strongest when everyone has the opportunity to participate, contribute, and belong. Our Community Development initiatives focus on reducing prejudice, promoting active citizenship, and creating spaces where people of all faiths and backgrounds can work together for the common good.`}
                 </p>
             </div>
 
@@ -49,8 +49,8 @@ export default function CommunityDevelopment() {
                             </h3>
                         </CardHeader>
                         <CardContent className="p-0 -mt-3">
-                            <p className="text-white text-base font-normal leading-relaxed">
-                                Creating safe and welcoming spaces for community members to connect, learn, and grow together.
+                            <p className="text-white text-base font-normal leading-relaxed">   
+                                {`Creating safe and welcoming spaces for community members to connect, learn, and grow together.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -63,7 +63,7 @@ export default function CommunityDevelopment() {
                         </CardHeader>
                         <CardContent className="p-0 -mt-3">
                             <p className="text-white text-base font-normal leading-relaxed">
-                                Fostering partnerships between residents, organizations, and local government to achieve common goals.
+                                {` Fostering partnerships between residents, organizations, and local government to achieve common goals.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -76,7 +76,7 @@ export default function CommunityDevelopment() {
                         </CardHeader>
                         <CardContent className="p-0 -mt-3">
                             <p className="text-white text-base font-normal leading-relaxed">
-                                Empowering individuals to participate in decision-making processes and shape the future of their communities.
+                                {`Empowering individuals to participate in decision-making processes and shape the future of their communities.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -85,7 +85,7 @@ export default function CommunityDevelopment() {
 
 
             {/* Stories of Hope*/}
-            <div className="bg-white p-[40px_10px_40px_10px] md:p-[6%]">
+            {/* <div className="bg-white p-[40px_10px_40px_10px] md:p-[6%]">
                 <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>
                     Stories of Change
                 </h2>
@@ -129,7 +129,7 @@ export default function CommunityDevelopment() {
                     </Card>
 
                 </div>
-            </div>
+            </div> */}
 
         </>
     )
