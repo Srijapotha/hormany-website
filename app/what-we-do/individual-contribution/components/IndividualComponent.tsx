@@ -17,9 +17,9 @@ export default function IndividualContribution() {
             <p className="italic text-gray-500 text-sm mb-7">
               - Joan Marques
             </p>
-            <button className="bg-emerald-500 text-white px-6 py-3 rounded-full  font-semibold text-sm hover:bg-emerald-600 hover:-translate-y-px transition-all self-start">
+            {/* <button className="bg-emerald-500 text-white px-6 py-3 rounded-full  font-semibold text-sm hover:bg-emerald-600 hover:-translate-y-px transition-all self-start">
               Find Charity
-            </button>
+            </button> */}
           </div>
           
           <div className="flex items-center justify-center p-2.5">

@@ -22,9 +22,9 @@ export default function WhatWeDo() {
                             <p className="text-white text-base text-center -mt-4">
                                 Join our global network of volunteers making change in their communities.
                             </p>
-                            <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
+                            {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                                 Get Started
-                            </Button>
+                            </Button> */}
                         </CardContent>
                     </Card>
 
@@ -37,9 +37,9 @@ export default function WhatWeDo() {
                             <p className="text-white text-base text-center -mt-4">
                                 Support our programs and help us reach more communities in need.
                             </p>
-                            <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
+                            {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                                 Get Started
-                            </Button>
+                            </Button> */}
                         </CardContent>
                     </Card>
 
@@ -52,9 +52,9 @@ export default function WhatWeDo() {
                             <p className="text-white text-base text-center -mt-4">
                                 Collaborate with us to amplify impact in your organization or community.
                             </p>
-                            <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px- hover:bg-[#ffffff]">
+                            {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px- hover:bg-[#ffffff]">
                                 Get Started
-                            </Button>
+                            </Button> */}
                         </CardContent>
                     </Card>
                 </div>

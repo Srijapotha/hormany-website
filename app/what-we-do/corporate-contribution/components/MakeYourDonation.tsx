@@ -21,11 +21,12 @@ const MakeYourDonations = () => {
             There may not be a standard, impactful way to donate that works for everyone. Our work is personalised and powered by the goals of your company. Research and analysis, planning and implementation, impact quantification and augmentation tools, practical internal and external engagement, and delivery through customized grantmaking and social investment initiatives are all included.
           </p>
           <p className="text-white mb-5 font-extrabold leading-relaxed">
-            Donate more effectively by aligning your company’s contribution aims with the requirements of the charities.
+            {`Donate more effectively by aligning your company’s contribution aims with the requirements of the charities.
+`}
           </p>
         </div>
-        
-        
+
+
         {/* Right content - 70% width */}
         <div className="w-full">
           <Image
@@ -36,7 +37,7 @@ const MakeYourDonations = () => {
             className="w-full h-full object-cover max-h-[720px]"
           />
         </div>
-        
+
       </div>
     </div>
   );

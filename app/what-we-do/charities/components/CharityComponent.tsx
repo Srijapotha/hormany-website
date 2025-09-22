@@ -19,12 +19,12 @@ const CharityAdvisory = () => {
               </p>
 
               <p className="font-medium text-gray-700">
-                Paving the road to your Charity&apos;s success
+                {`Paving the road to your Charity's success`}
               </p>
 
               <p>
-                We offer our advisory services with an evidence-based approach
-                by fusing our expertise, experience, and in-depth research.
+                {`We offer our advisory services with an evidence-based approach
+                by fusing our expertise, experience, and in-depth research.`}
               </p>
 
               <p>

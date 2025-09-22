@@ -56,7 +56,7 @@ const Navbar = () => {
             <ul className="flex items-center gap-6">
               <NavigationMenuItem>
 
-                <Link href="/our-mission" className="flex items-center text-[#0F172A] font-normal font-base hover:text-[#22A06B] transition-all cursor-pointer">
+                <Link href="/our-mission" className="flex items-center text-[#0F172A] font-medium font-base hover:text-[#22A06B] transition-all cursor-pointer">
                   Our Mission
                 </Link>
 
@@ -64,7 +64,7 @@ const Navbar = () => {
               {/* Who We Are */}
               <NavigationMenuItem>
                 <DropdownMenu>
-                  <DropdownMenuTrigger className="flex items-center text-[#0F172A] font-normal font-base hover:text-[#22A06B] transition-all cursor-pointer">
+                  <DropdownMenuTrigger className="flex items-center text-[#0F172A] font-medium font-base hover:text-[#22A06B] transition-all cursor-pointer">
                     Who We Are <ChevronDown className="ml-1 w-4 h-4" />
                   </DropdownMenuTrigger>
                   <DropdownMenuContent className="">
@@ -86,7 +86,7 @@ const Navbar = () => {
               {/* What We Do */}
               <NavigationMenuItem>
                 <DropdownMenu>
-                  <DropdownMenuTrigger className="flex items-center text-[#0F172A] font-normal font-base hover:text-[#22A06B] transition-all cursor-pointer">
+                  <DropdownMenuTrigger className="flex items-center text-[#0F172A] font-medium font-base hover:text-[#22A06B] transition-all cursor-pointer">
                     What We Do <ChevronDown className="ml-1 w-4 h-4" />
                   </DropdownMenuTrigger>
                   <DropdownMenuContent>
@@ -204,7 +204,7 @@ const Navbar = () => {
 
               <Accordion type="single" collapsible>
                 <AccordionItem value="who-we-are">
-                  <AccordionTrigger className="font-medium border-b border-gray-300 pb-2">
+                  <AccordionTrigger className="text-base font-medium border-b border-gray-300 p-1">
                     <p className="">Who We Are</p>
                   </AccordionTrigger>
                   <AccordionContent>
@@ -244,7 +244,7 @@ const Navbar = () => {
               <Accordion type="single" collapsible>
 
                 <AccordionItem value="what-we-do">
-                  <AccordionTrigger className="p-0 font-medium">
+                  <AccordionTrigger className="text-base font-medium border-b border-gray-300 p-1">
                     What We Do
                   </AccordionTrigger>
                   <AccordionContent>
@@ -284,14 +284,14 @@ const Navbar = () => {
               <Accordion type="single" collapsible>
 
                 <AccordionItem value="what-we-do">
-                  <AccordionTrigger className="text-base font-normal">
+                  <AccordionTrigger className="text-base font-medium border-b border-gray-300 p-1">
                     Our Programs & Initiatives
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="pl-4 mt-2 space-y-1">
                       <li>
                         <Link
-                          href="/our-programs-initiatives/"
+                          href="/our-programs-initiatives/human-rights-advocacy"
                           onClick={closeSheet}
                           className="block p-2 rounded hover:bg-slate-100"
                         >
@@ -300,7 +300,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          href="/our-programs-initiatives/"
+                          href="/our-programs-initiatives/interfaith-community-harmony"
                           onClick={closeSheet}
                           className="block p-2 rounded hover:bg-slate-100"
                         >
@@ -309,7 +309,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          href="/our-programs-initiatives/"
+                          href="/our-programs-initiatives/support-relief"
                           onClick={closeSheet}
                           className="block p-2 rounded hover:bg-slate-100"
                         >
@@ -318,7 +318,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          href="/our-programs-initiatives/"
+                          href="/our-programs-initiatives/community-development"
                           onClick={closeSheet}
                           className="block p-2 rounded hover:bg-slate-100"
                         >
@@ -327,7 +327,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          href="/our-programs-initiatives/"
+                          href="/our-programs-initiatives/education-scholarship"
                           onClick={closeSheet}
                           className="block p-2 rounded hover:bg-slate-100"
                         >

@@ -18,31 +18,32 @@ export default function SustainChanges() {
               </p>
             </CardContent>
           </Card>
-          
+
           {/* Second Card Group - Teal and Yellow Cards */}
           <div>
             <Card className="bg-white rounded-2xl shadow-xl border-l-4 border-teal-500 border-t-0 border-r-0 border-b-0">
               <CardContent className="p-8 flex justify-center items-center">
                 <p className="text-gray-600 text-base leading-relaxed">
-                  Confirm your email address. We’ll ask your charity’s main contact (registered with the Charity Commission) to confirm this.
+                  {`Confirm your email address. We’ll ask your charity’s main contact (registered with the Charity Commission) to confirm this.
+`}
                 </p>
               </CardContent>
             </Card>
           </div>
-          
+
           {/* Third Card - Purple Border */}
           <Card className="bg-white rounded-2xl shadow-xl border-l-4 border-purple-500 border-t-0 border-r-0 border-b-0">
             <CardContent className="p-8 flex justify-center items-center">
               <p className="text-gray-600 text-base leading-relaxed">
-               Once approved, start adding your projects and tracking all activities. 
+                Once approved, start adding your projects and tracking all activities.
               </p>
             </CardContent>
           </Card>
         </div>
         <div className='mt-16 flex justify-center '>
-          <Button className="bg-[#F6C33B] text-white px-6 py-3 rounded-full  font-semibold text-sm hover:bg-emerald-600 hover:-translate-y-px transition-all self-start">
-            Register Now 
-          </Button>
+          {/* <Button className="bg-[#F6C33B] text-white px-6 py-3 rounded-full  font-semibold text-sm hover:bg-emerald-600 hover:-translate-y-px transition-all self-start">
+            Register Now
+          </Button> */}
         </div>
       </div>
     </section>

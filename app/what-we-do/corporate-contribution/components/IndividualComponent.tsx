@@ -12,17 +12,18 @@ export default function IndividualContribution() {
               Corporate Contributions
             </h2>
             <p className="text-gray-600 text-base leading-relaxed mb-2">
-              You have the vision. We will give you the directions. Considering your goals, we help determine how to contribute.
+              {`You have the vision. We will give you the directions. Considering your goals, we help determine how to contribute.
+`}
             </p>
-            <button className="bg-emerald-500 text-white px-6 py-3 rounded-full  font-semibold text-sm hover:bg-emerald-600 hover:-translate-y-px transition-all self-start">
+            {/* <button className="bg-emerald-500 text-white px-6 py-3 rounded-full  font-semibold text-sm hover:bg-emerald-600 hover:-translate-y-px transition-all self-start">
               Learn more
-            </button>
+            </button> */}
 
           </div>
           <div className="flex items-center justify-center p-2.5">
             <Image
               src={WhatWeDoCorporateImage1}
-              alt="Happy person"
+              alt=""
               width={350}
               height={300}
               className="w-full h-full object-cover rounded-lg"

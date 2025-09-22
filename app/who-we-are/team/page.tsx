@@ -47,12 +47,12 @@ export default function Team() {
                             <h3 className="text-lg font-bold text-[#0F172A]">Paresh Deshmukh</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
                             </p>
-                            <a
+                            {/* <a
                                 href="#"
                                 className="text-[#2563EB] font-medium text-sm mt-2 flex items-center gap-1"
                             >
                                 Read more <span>→</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
@@ -68,12 +68,12 @@ export default function Team() {
                             <h3 className="text-lg font-bold text-[#0F172A]">Luis Gallardo</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
                             </p>
-                            <a
+                            {/* <a
                                 href="#"
                                 className="text-[#2563EB] font-medium text-sm mt-2 flex items-center gap-1"
                             >
                                 Read more <span>→</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
@@ -89,12 +89,12 @@ export default function Team() {
                             <h3 className="text-lg font-bold text-[#0F172A]">Suki Fuller</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
                             </p>
-                            <a
+                            {/* <a
                                 href="#"
                                 className="text-[#2563EB] font-medium text-sm mt-2 flex items-center gap-1"
                             >
                                 Read more <span>→</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
@@ -110,12 +110,12 @@ export default function Team() {
                             <h3 className="text-lg font-bold text-[#0F172A]">Salman Shaikh</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
                             </p>
-                            <a
+                            {/* <a
                                 href="#"
                                 className="text-[#2563EB] font-medium text-sm mt-2 flex items-center gap-1"
                             >
                                 Read more <span>→</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
@@ -142,12 +142,12 @@ export default function Team() {
                             <h3 className="text-lg font-bold text-[#0F172A]">Poorva Deshmukh</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
                             </p>
-                            <a
+                            {/* <a
                                 href="#"
                                 className="text-[#2563EB] font-medium text-sm mt-2 flex items-center gap-1"
                             >
                                 Read more <span>→</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
@@ -163,12 +163,12 @@ export default function Team() {
                             <h3 className="text-lg font-bold text-[#0F172A]">Vijay Pattar</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
                             </p>
-                            <a
+                            {/* <a
                                 href="#"
                                 className="text-[#2563EB] font-medium text-sm mt-2 flex items-center gap-1"
                             >
                                 Read more <span>→</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
@@ -184,12 +184,12 @@ export default function Team() {
                             <h3 className="text-lg font-bold text-[#0F172A]">Sushil Gaikwad</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
                             </p>
-                            <a
+                            {/* <a
                                 href="#"
                                 className="text-[#2563EB] font-medium text-sm mt-2 flex items-center gap-1"
                             >
                                 Read more <span>→</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>

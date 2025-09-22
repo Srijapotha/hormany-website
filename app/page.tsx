@@ -23,7 +23,7 @@ export default function Home() {
           width={1400} // Keep this in proportion to the actual image
           priority // Loads this image as a high-priority image (above-the-fold)
           alt="Advancing Human Rights, Equality, and Diversity"
-          className="w-full h-auto object-cover lg:container lg:max-w-8xl mx-auto" // Ensures the image covers its container without stretching
+          className="w-full h-auto object-cover" // Ensures the image covers its container without stretching
           layout="responsive" // Ensures the image maintains its aspect ratio while scaling
         />
         <div className="absolute text-center inset-0 flex flex-col items-center justify-center px-[5%] md:px-[12%] text-white lg:container lg:max-w-7xl mx-auto">
@@ -34,10 +34,6 @@ export default function Home() {
           <p className="mt-2 md:mt-5 !leading-loose text-xs md:text-lg">
             Together we work to build harmony, support those in need, and create inclusive communities through education, citizenship, and collaboration
           </p>
-          {/* <Link href="" className="mt-5">
-            <Button className="bg-[#22A06B] rounded-full text-white text-md">Learn more</Button>
-          </Link> */}
-
 
         </div>
       </div>
@@ -183,7 +179,7 @@ export default function Home() {
         <h3 className="text-2xl md:text-[34px] font-bold text-center my-7 md:my-8">Our Programs & Initiatives</h3>
         <p className="text-center">Comprehensive programs addressing every aspect of human rights and community building.</p>
 
-        <Carousel className="w-full">
+        <Carousel className="w-full" >
 
           <CarouselContent>
             <CarouselItem className="py-8 md:basis-1/2">
@@ -273,8 +269,8 @@ export default function Home() {
 
 
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 z-10" />
+          <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 z-10" />
         </Carousel>
       </div>
 
@@ -288,10 +284,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="my-10">
+      {/* <div className="my-10">
         <div className="block sm:hidden mb-4">
           <div className="relative">
-            {/* Button with the arrow */}
             <button
               type="button"
               className="p-4 border-t-2 border-[#2E6BE6] border-x-0 border-b-0 bg-[#2E6BE633] font-semibold w-full text-lg flex justify-between items-center"
@@ -311,7 +306,6 @@ export default function Home() {
               />
             </button>
 
-            {/* Dropdown menu */}
             {isOpen && (
               <div id="dropdown-menu" className="absolute left-0 right-0 mt-1 border-t-2 border-[#2E6BE6] border-x-0 border-b-0 bg-[#d5e1fa]  rounded-md shadow-lg z-10">
                 <button
@@ -491,7 +485,7 @@ export default function Home() {
 
           </div>
         )}
-      </div>
+      </div> */}
 
       <div className="bg-gradient-to-r from-[#2E6BE6] to-[#7A60D1] p-[40px_10px_40px_10px] md:p-[6%]">
         <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#ffffff] mb-6 sm:mb-8 md:mb-12 leading-[40px] sm:leading-[50px] md:leading-[60px]" style={{ fontFamily: "Unbounded" }}>

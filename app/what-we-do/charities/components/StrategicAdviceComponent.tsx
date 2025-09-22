@@ -20,8 +20,8 @@ export default function StrategicAdvicePage() {
             <div>
               <h3 className="text-blue-500 text-[22px] font-semibold mb-2">Grant Application</h3>
               <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-3 md:mb-4">
-                We&apos;ll help you design, deliver and learn to provide a meaningful and impactful grant 
-                making programme.
+                {`We'll help you design, deliver and learn to provide a meaningful and impactful grant 
+                making programme.`}
               </p>
             </div>
            
