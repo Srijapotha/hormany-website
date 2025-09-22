@@ -27,7 +27,6 @@ export default function CharityResourcesQuote() {
           </p>
           <p>
             {`Our platform provides volunteers and volunteering resources across various services and sectors.`}
-            {`Our platform provides volunteers and volunteering resources across various services and sectors.`}
           </p>
         </div>
       </div>

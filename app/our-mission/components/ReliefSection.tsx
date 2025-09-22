@@ -29,7 +29,6 @@ export default function ReliefSection() {
             </div>
             <p className="text-gray-600 leading-relaxed pr-5 mb-10 -mt-5">
               {`Offering support services, grants, or practical assistance.`}
-              {`Offering support services, grants, or practical assistance.`}
             </p>
           </div>
 
@@ -47,8 +46,6 @@ export default function ReliefSection() {
               </h3>
             </div>
             <p className="text-gray-600 leading-relaxed pr-5 mb-10 -mt-5">
-              {`Helping victims and their families recover, integrate, and rebuild
-              confidence through sustainable support programmes.`}
               {`Helping victims and their families recover, integrate, and rebuild
               confidence through sustainable support programmes.`}
             </p>

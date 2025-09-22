@@ -31,7 +31,6 @@ export default function CharityAdvisory() {
                 {`We are here to offer as much or as little support as you
                 require, whether planning a transformational culture or just
                 needing aid with a specific project.`}
-                needing aid with a specific project.`}
               </p>
             </div>
           </div>
@@ -50,7 +49,6 @@ export default function CharityAdvisory() {
               <CardContent className="p-6 flex items-center">
                 <p className="text-white text-sm leading-relaxed">
                   {`Being a valuable critic to test ideas and create new plans`}
-                  {`Being a valuable critic to test ideas and create new plans`}
                 </p>
               </CardContent>
             </Card>
@@ -63,16 +61,12 @@ export default function CharityAdvisory() {
                 <p className="text-white text-sm leading-relaxed">
                   {`Arranging focus groups, interviews, or workshops to examine
                   possibilities and challenges and generate possible solutions`}
-                  {`Arranging focus groups, interviews, or workshops to examine
-                  possibilities and challenges and generate possible solutions`}
                 </p>
               </CardContent>
             </Card>
             <Card className="bg-[#F26D4A] border-[#F26D4A] h-full justify-center">
               <CardContent className="p-6 flex items-center">
                 <p className="text-white text-sm leading-relaxed">
-                  {`Perform competitor analysis and research to gain the necessary
-                  knowledge to make decisions.`}
                   {`Perform competitor analysis and research to gain the necessary
                   knowledge to make decisions.`}
                 </p>

@@ -35,7 +35,6 @@ export default function SustainChanges() {
             <CardContent className="p-8 flex justify-center items-center">
               <p className="text-gray-600 text-base leading-relaxed">
                 {`Once approved, start adding your projects and tracking all activities.`}
-                {`Once approved, start adding your projects and tracking all activities.`}
               </p>
             </CardContent>
           </Card>
