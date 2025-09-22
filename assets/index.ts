@@ -1,5 +1,6 @@
 import Banner from "./images/banner.webp";
 import Map from "./images/map.webp";
+import Intro from "./images/intro.webp";
 import human_rights_hero from "./images/human_rights_hero.webp";
 import Interfaith_Community_Harmony_hero from "./images/Interfaith_Community_Harmony_hero.webp";
 import support_relif from "./images/support_relif.webp"
@@ -40,10 +41,23 @@ import WhatWeDoCorporateImage1 from "./images/whatwedo/corporateteam.webp";
 import WhatWeDoCorporateImage2 from "./images/whatwedo/corporateteamimage2.webp";
 import WhatWeDoCorporateImage3 from "./images/whatwedo/groupimage.webp";
 import WhatWeDoCorporateImage4 from "./images/whatwedo/corporateteam2.webp";
+import Program1 from "./images/programms/program1.webp";
+import Program2 from "./images/programms/program2.webp";
+import Program3 from "./images/programms/program3.webp";
+import Program4 from "./images/programms/program4.webp";
+import Program5 from "./images/programms/program5.webp";
+import Project1 from "./images/project/project1.webp";
+import Project2 from "./images/project/project2.webp";
+import Project3 from "./images/project/project3.webp";
+import Project4 from "./images/project/project4.webp";
+import Project5 from "./images/project/project5.webp";
+import Economic_Transparency from "./images/Economic_Transparency.webp";
+
 
 export {
     Banner,
     Map,
+    Intro,
     human_rights_hero,
     Interfaith_Community_Harmony_hero,
     support_relif,
@@ -83,6 +97,17 @@ export {
     WhatWeDoCorporateImage1,
     WhatWeDoCorporateImage2,
     WhatWeDoCorporateImage3,
-    WhatWeDoCorporateImage4
+    WhatWeDoCorporateImage4,
+    Program1,
+    Program2, 
+    Program3,
+    Program4,
+    Program5,
+    Project1,
+    Project2, 
+    Project3,
+    Project4,
+    Project5,
+    Economic_Transparency,
 };
 

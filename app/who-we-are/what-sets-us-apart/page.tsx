@@ -1,7 +1,7 @@
 
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import Image from "next/image"
-import {missionImage,Economic_Transparency} from "@/assets"
+import {MissionHeroBanner,Economic_Transparency} from "@/assets"
 
 
 export default function whatsetsusapart() {
@@ -11,7 +11,7 @@ export default function whatsetsusapart() {
             <div
                 className="relative w-full h-[60vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
                 style={{
-                    backgroundImage: `url(${missionImage.src})`,
+                    backgroundImage: `url(${MissionHeroBanner.src})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -38,7 +38,6 @@ export default function whatsetsusapart() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal -mt-4">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                         </CardContent>
                     </Card>
@@ -50,7 +49,6 @@ export default function whatsetsusapart() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal -mt-4">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                         </CardContent>
                     </Card>
@@ -63,7 +61,6 @@ export default function whatsetsusapart() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal -mt-4">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                         </CardContent>
                     </Card>
@@ -75,7 +72,6 @@ export default function whatsetsusapart() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal -mt-4">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                         </CardContent>
                     </Card>
@@ -88,7 +84,6 @@ export default function whatsetsusapart() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal -mt-4">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                         </CardContent>
                     </Card>
@@ -101,7 +96,6 @@ export default function whatsetsusapart() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#0F172A] text-base font-normal -mt-4">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                         </CardContent>
                     </Card>

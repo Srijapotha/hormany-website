@@ -1,4 +1,4 @@
-import { missionImage } from "@/assets"
+import { MissionHeroBanner } from "@/assets"
 import Image from "next/image"
 import { Paresh_Deshmukh, Luis, suki, salman, Poorva_Deshmukh, Vijay_Pattar, Sushil_Gaikwad } from "@/assets"
 
@@ -10,7 +10,7 @@ export default function Team() {
             <div
                 className="relative w-full h-[60vh] flex items-center justify-center text-center overflow-hidden shadow-lg"
                 style={{
-                    backgroundImage: `url(${missionImage.src})`,
+                    backgroundImage: `url(${MissionHeroBanner.src})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -46,7 +46,6 @@ export default function Team() {
                         <div className="bottom-0 left-0 w-full bg-white shadow-md px-4 py-5  border-t-5  border-[#2E6BE6]">
                             <h3 className="text-lg font-bold text-[#0F172A]">Paresh Deshmukh</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                             <a
                                 href="#"
@@ -68,7 +67,6 @@ export default function Team() {
                         <div className="bottom-0 left-0 w-full bg-white shadow-md px-4 py-5 border-t-5  border-[#2E6BE6] ">
                             <h3 className="text-lg font-bold text-[#0F172A]">Luis Gallardo</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                             <a
                                 href="#"
@@ -90,7 +88,6 @@ export default function Team() {
                         <div className="bottom-0 left-0 w-full bg-white shadow-md px-4 py-5 border-t-5  border-[#2E6BE6]">
                             <h3 className="text-lg font-bold text-[#0F172A]">Suki Fuller</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                             <a
                                 href="#"
@@ -112,7 +109,6 @@ export default function Team() {
                         <div className="bottom-0 left-0 w-full bg-white shadow-md px-4 py-5 border-t-5  border-[#2E6BE6]">
                             <h3 className="text-lg font-bold text-[#0F172A]">Salman Shaikh</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                             <a
                                 href="#"
@@ -145,7 +141,6 @@ export default function Team() {
                         <div className="bottom-0 left-0 w-full bg-white shadow-md px-4 py-5  border-t-5  border-[#2E6BE6]">
                             <h3 className="text-lg font-bold text-[#0F172A]">Poorva Deshmukh</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                             <a
                                 href="#"
@@ -167,7 +162,6 @@ export default function Team() {
                         <div className="bottom-0 left-0 w-full bg-white shadow-md px-4 py-5 border-t-5  border-[#2E6BE6] ">
                             <h3 className="text-lg font-bold text-[#0F172A]">Vijay Pattar</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                             <a
                                 href="#"
@@ -189,7 +183,6 @@ export default function Team() {
                         <div className="bottom-0 left-0 w-full bg-white shadow-md px-4 py-5 border-t-5  border-[#2E6BE6]">
                             <h3 className="text-lg font-bold text-[#0F172A]">Sushil Gaikwad</h3>
                             <p className="text-sm text-[#64748B] mt-1 font-semibold">
-                                Lorem ipsum dolor sit amet consectetur. Euismod non quis Euismod non...
                             </p>
                             <a
                                 href="#"
