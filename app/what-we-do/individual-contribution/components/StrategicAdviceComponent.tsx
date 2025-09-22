@@ -1,5 +1,3 @@
-import { Poorva_Deshmukh } from "@/assets";
-import Image from "next/image";
 
 export default function StrategicAdvicePage() {
   return (
@@ -15,11 +13,11 @@ export default function StrategicAdvicePage() {
         <div className="flex flex-col items-center lg:flex-row gap-8 md:gap-10 lg:gap-12 items-start lg:max-h-[1110px]">
           {/* Left side - Image (30% width) */}
           <div className="w-full max-w-[450px] max-h-[510px] lg:w-[30%] h-full">
-            <Image
+            {/* <Image
               src={Poorva_Deshmukh}
               alt="Get Strategic advice"
               className="w-full h-full object-cover"
-            />
+            /> */}
           </div>
 
           {/* Right side - Content (70% width) */}
