@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+// import { Button } from '@/components/ui/button';
 
 export default function SustainChanges() {
   return (
@@ -34,6 +34,7 @@ export default function SustainChanges() {
           <Card className="bg-white rounded-2xl shadow-xl border-l-4 border-purple-500 border-t-0 border-r-0 border-b-0">
             <CardContent className="p-8 flex justify-center items-center">
               <p className="text-gray-600 text-base leading-relaxed">
+                {`Once approved, start adding your projects and tracking all activities.`}
                 {`Once approved, start adding your projects and tracking all activities.`}
               </p>
             </CardContent>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Handshake, Heart, User } from "lucide-react"
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 
 export default function WhatWeDo() {
     return(

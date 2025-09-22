@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Handshake, Heart, User } from "lucide-react"
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 
 export default function WhatWeDo() {
     return(
@@ -10,6 +10,7 @@ export default function WhatWeDo() {
                     {`Join Our Movement`}
                 </h2>
                 <p className="text-center mb-8 text-lg text-white max-w-3xl mx-auto">
+                    {`Every action counts. Whether through volunteering, donating, or spreading awareness, you can make a difference.`}
                     {`Every action counts. Whether through volunteering, donating, or spreading awareness, you can make a difference.`}
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -36,6 +37,7 @@ export default function WhatWeDo() {
                         <CardContent className="flex flex-col items-center gap-4">
                             <p className="text-white text-base text-center -mt-4">
                                 {`Support our programs and help us reach more communities in need.`}
+                                {`Support our programs and help us reach more communities in need.`}
                             </p>
                             {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                                 Get Started
@@ -50,6 +52,7 @@ export default function WhatWeDo() {
                         </CardHeader>
                         <CardContent className="flex flex-col items-center gap-4">
                             <p className="text-white text-base text-center -mt-4">
+                                {`Collaborate with us to amplify impact in your organization or community.`}
                                 {`Collaborate with us to amplify impact in your organization or community.`}
                             </p>
                             {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px- hover:bg-[#ffffff]">

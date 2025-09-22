@@ -26,12 +26,15 @@ const AdvisoryComponent: React.FC = () => {
             <div className="space-y-4 text-gray-600 text-sm leading-relaxed ml-6">
               <p>
                 {`Magnitude is essential to bringing about substantial change, in
+                {`Magnitude is essential to bringing about substantial change, in
                 our opinion. Our main objective is to utilise impactful thinking
+                and models in a corporate setting.`}
                 and models in a corporate setting.`}
               </p>
               <p>
                 {`We assist companies in achieving the social and environmental
                 goals that underpin their operations, which benefits them, their
+                clients, and their staff significantly.`}
                 clients, and their staff significantly.`}
               </p>
             </div>
@@ -54,6 +57,8 @@ const AdvisoryComponent: React.FC = () => {
             </div>
             <div className="text-gray-600 text-sm leading-relaxed ml-6">
               <p className="mb-3">
+                {`Maulee Foundation has enabled global philanthropy and social
+                impact.`}
                 {`Maulee Foundation has enabled global philanthropy and social
                 impact.`}
               </p>
@@ -154,6 +159,7 @@ const AdvisoryComponent: React.FC = () => {
               href="#"
               className="text-[#64748B] underline text-[16px] font-medium"
             >
+              {`Talk to us about the ways we can boost your giving`}
               {`Talk to us about the ways we can boost your giving`}
             </a>
           </div>

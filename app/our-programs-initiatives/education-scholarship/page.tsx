@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { scholarship_programs,educational_resources,training_workshops,education_scholarship,education_video_banner } from "@/assets"
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 import { Handshake, Heart, User, ArrowRight } from "lucide-react"
 
 export default function EducationScholarship() {
@@ -23,7 +23,7 @@ export default function EducationScholarship() {
             Education & Scholarship
           </h1>
           <p className="text-lg md:text-xl">
-            HarmonyOverHate is committed to building a world where diversity is celebrated, rights are protected, and communities thrive together.
+          {`  HarmonyOverHate is committed to building a world where diversity is celebrated, rights are protected, and communities thrive together.`}
           </p>
         </div>
       </div>
@@ -49,14 +49,14 @@ export default function EducationScholarship() {
                 Scholarship Programs
               </h3>
               <p className="text-[#64748B] text-base text-start mb-4">
-                We provide merit-based and need-based scholarships to deserving students who face financial challenges. These scholarships ensure that talented individuals are not…
+                {`We provide merit-based and need-based scholarships to deserving students who face financial challenges. These scholarships ensure that talented individuals are not…`}
               </p>
-              <a
+              {/* <a
                 href="#"
                 className="text-[#2563EB] font-semibold flex items-center gap-2 text-sm hover:underline"
               >
                 READ MORE <span className="text-[#F97316]"><ArrowRight /></span>
-              </a>
+              </a> */}
             </CardContent>
           </Card>
 
@@ -75,14 +75,14 @@ export default function EducationScholarship() {
                 Educational Resources
               </h3>
               <p className="text-[#64748B] text-base text-start mb-4">
-                Beyond financial support, we believe access to quality learning materials is crucial. From books and digital content to mentoring and career guidance, our resources are designed to help…
+                {`Beyond financial support, we believe access to quality learning materials is crucial. From books and digital content to mentoring and career guidance, our resources are designed to help…`}
               </p>
-              <a
+              {/* <a
                 href="#"
                 className="text-[#2563EB] font-semibold flex items-center gap-2 text-sm hover:underline"
               >
                 READ MORE <span className="text-[#F97316]"><ArrowRight /></span>
-              </a>
+              </a> */}
             </CardContent>
           </Card>
 
@@ -101,14 +101,14 @@ export default function EducationScholarship() {
                 Training Workshops
               </h3>
               <p className="text-[#64748B] text-base text-start mb-4">
-                Education goes hand in hand with skill development. Our workshops focus on leadership, communication, technology, and vocational training. These sessions equip students with…
+               {` Education goes hand in hand with skill development. Our workshops focus on leadership, communication, technology, and vocational training. These sessions equip students with…`}
               </p>
-              <a
+              {/* <a
                 href="#"
                 className="text-[#2563EB] font-semibold flex items-center gap-2 text-sm hover:underline"
               >
                 READ MORE <span className="text-[#F97316]"><ArrowRight /></span>
-              </a>
+              </a> */}
             </CardContent>
           </Card>
         </div>
@@ -120,7 +120,7 @@ export default function EducationScholarship() {
           Introduction Video of Our Program
         </h2>
         <p className="text-center mb-8 text-lg text-[#0F172A] max-w-3xl mx-auto">
-          To advance human rights, equality, and diversity for the public benefit by
+          {`To advance human rights, equality, and diversity for the public benefit by`}
         </p>
         <div className="relative w-full flex justify-center items-center">
           <Image
@@ -154,7 +154,7 @@ export default function EducationScholarship() {
           Join Our Movement
         </h2>
         <p className="text-center mb-8 text-lg text-white max-w-3xl mx-auto">
-          Every action counts. Whether through volunteering, donating, or spreading awareness, you can make a difference.
+          {`Every action counts. Whether through volunteering, donating, or spreading awareness, you can make a difference.`}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           <Card className="rounded-2xl border-0 transition bg-[#FFFFFF1A] p-6">
@@ -164,11 +164,11 @@ export default function EducationScholarship() {
             </CardHeader>
             <CardContent className="flex flex-col items-center gap-4">
               <p className="text-white text-base text-center -mt-4">
-                Join our global network of volunteers making change in their communities.
+                {`Join our global network of volunteers making change in their communities.`}
               </p>
-              <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
+              {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                 Get Started
-              </Button>
+              </Button> */}
             </CardContent>
           </Card>
 
@@ -179,11 +179,11 @@ export default function EducationScholarship() {
             </CardHeader>
             <CardContent className="flex flex-col items-center gap-4">
               <p className="text-white text-base text-center -mt-4">
-                Support our programs and help us reach more communities in need.
+                {`Support our programs and help us reach more communities in need.`}
               </p>
-              <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
+              {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                 Get Started
-              </Button>
+              </Button> */}
             </CardContent>
           </Card>
 
@@ -194,11 +194,11 @@ export default function EducationScholarship() {
             </CardHeader>
             <CardContent className="flex flex-col items-center gap-4">
               <p className="text-white text-base text-center -mt-4">
-                Collaborate with us to amplify impact in your organization or community.
+                {`Collaborate with us to amplify impact in your organization or community.`}
               </p>
-              <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
+              {/* <Button className="bg-white text-[#2E6BE6] text-base font-medium py-3 px-5 hover:bg-[#ffffff]">
                 Get Started
-              </Button>
+              </Button> */}
             </CardContent>
           </Card>
         </div>

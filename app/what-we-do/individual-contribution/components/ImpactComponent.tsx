@@ -21,6 +21,7 @@ export default function AmplifyYourImpact() {
                 {`From helping to define your values and objectives to developing frameworks to measure impact, 
                 we draw on our wealth of experience, sector knowledge, and research to help design best-in-class 
                 strategies to fulfil that impact and aid in creating your donations.`}
+                strategies to fulfil that impact and aid in creating your donations.`}
               </p>
             </CardContent>
           </Card>
@@ -30,6 +31,8 @@ export default function AmplifyYourImpact() {
             <Card className="bg-white rounded-2xl shadow-xl border-l-4 border-teal-500 border-t-0 border-r-0 border-b-0">
               <CardContent className="p-8 flex justify-center items-center">
                 <p className="text-gray-600 text-base leading-relaxed">
+                  {`In collaboration with you, we provide expert support to deliver programmes that effectively meet 
+                  your ambitions and impact goals.`}
                   {`In collaboration with you, we provide expert support to deliver programmes that effectively meet 
                   your ambitions and impact goals.`}
                 </p>

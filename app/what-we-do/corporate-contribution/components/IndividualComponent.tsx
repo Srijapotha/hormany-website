@@ -3,8 +3,8 @@ import { WhatWeDoCorporateImage1 } from "@/assets";
 
 export default function IndividualContribution() {
   return (
-    <section className="p-[40px_10px_40px_10px] md:p-[6%]">
-      <div className=" mx-auto px-5 max-w-7xl">
+    <section className="p-[40px_10px] md:p-[6%]">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="bg-[#F4F7FD] rounded-3xl grid grid-cols-1 lg:grid-cols-[1fr_550px] overflow-hidden shadow-lg relative mb-16 border-l-[5px] border-blue-500">
 
           <div className="max-w-3xl p-8 lg:p-12 flex flex-col justify-center">

@@ -24,6 +24,7 @@ export default function OurMethodology() {
 
             <p className="text-gray-600 text-sm md:text-base leading-relaxed">
               {`We assist in transforming concepts into strategies that yield sustained outcomes. We will investigate your options, carry out the planned actions, and share impactful case studies.`}
+              {`We assist in transforming concepts into strategies that yield sustained outcomes. We will investigate your options, carry out the planned actions, and share impactful case studies.`}
             </p>
 
             <div className="space-y-3">
@@ -32,17 +33,21 @@ export default function OurMethodology() {
                 <li className="flex items-start gap-2">
                   <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
                   {`Formulating a Change Theory`}
+                  {`Formulating a Change Theory`}
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
+                  {`Examining both external and internal stakeholders`}
                   {`Examining both external and internal stakeholders`}
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
                   {`Comparing and contrasting`}
+                  {`Comparing and contrasting`}
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
+                  {`Establishing objectives and developing strategies`}
                   {`Establishing objectives and developing strategies`}
                 </li>
                 <li className="flex items-start gap-2">
@@ -51,6 +56,7 @@ export default function OurMethodology() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
+                  {`Observation and assessment`}
                   {`Observation and assessment`}
                 </li>
               </ul>
@@ -99,6 +105,7 @@ export default function OurMethodology() {
               <li className="flex items-start gap-2">
                 <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
                 {`We help you map a proposition`}
+                {`We help you map a proposition`}
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
@@ -106,6 +113,7 @@ export default function OurMethodology() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
+                {`We provide an easy-to-use and comprehensive platform for educating potential donors and volunteers`}
                 {`We provide an easy-to-use and comprehensive platform for educating potential donors and volunteers`}
               </li>
             </ul>
@@ -125,6 +133,7 @@ export default function OurMethodology() {
 
             <p className="text-gray-600 text-sm md:text-base leading-relaxed">
               {`We believe the true strength of any organisation lies in its Team! We help you find the best of the best to structure your board. We will also review all the compliance and governance requirements to ensure your function is at its best.`}
+              {`We believe the true strength of any organisation lies in its Team! We help you find the best of the best to structure your board. We will also review all the compliance and governance requirements to ensure your function is at its best.`}
             </p>
 
             <div className="space-y-3">
@@ -136,9 +145,11 @@ export default function OurMethodology() {
                 <li className="flex items-start gap-2">
                   <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
                   {`Our stringent due diligence policies ensure efficient functioning and performance.`}
+                  {`Our stringent due diligence policies ensure efficient functioning and performance.`}
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></span>
+                  {`Our platform ensures hassle-free data at your fingertips.`}
                   {`Our platform ensures hassle-free data at your fingertips.`}
                 </li>
               </ul>

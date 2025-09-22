@@ -1,4 +1,4 @@
-import { GetStrategicAdviceUser, Poorva_Deshmukh } from "@/assets";
+import { Poorva_Deshmukh } from "@/assets";
 import Image from "next/image";
 
 export default function StrategicAdvicePage() {

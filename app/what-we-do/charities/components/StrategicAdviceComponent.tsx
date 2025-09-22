@@ -36,11 +36,13 @@ export default function StrategicAdvicePage() {
                 planning process considers these objectives. This covers the structural components 
                 like the frequency and size of grants, the geographic scope, and the evaluation 
                 standards.`}
+                standards.`}
               </p>
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">
                 {`This resonates with charities with similar goals applying via our online platform, and 
                 this helps you and your staff determine which charities best fit the priorities of your 
                 program. We are also capable of handling all aspects of the program, including 
+                contracting, and most importantly—impact reporting.`}
                 contracting, and most importantly—impact reporting.`}
               </p>
             </div>
