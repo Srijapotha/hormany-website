@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Lightbulb, Shield, Megaphone, Handshake, Heart, User } from "lucide-react"
 import { human_rights_hero } from "@/assets"

@@ -1,6 +1,4 @@
-import { Card, CardHeader, CardContent } from "@/components/ui/card"
-import Image from "next/image"
-import {Interfaith_Community_Harmony_hero ,support_relif} from "@/assets"
+import {support_relif} from "@/assets"
 
 export default function SupportRelif() {
     return (

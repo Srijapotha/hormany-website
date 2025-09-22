@@ -2,7 +2,6 @@ import { MissionHeroBanner } from "@/assets"
 import IndividualComponent from "./components/IndividualComponent"
 import CharityComponent from "./components/CharityComponent"
 import ImpactComponent from "./components/ImpactComponent"
-import StrategicAdviceComponent from "./components/StrategicAdviceComponent"
 import JoinOurMomentComponent from "./components/JoinOurMomentComponent"
 export default function HomePage() {
     return (

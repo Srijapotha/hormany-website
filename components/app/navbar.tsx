@@ -76,9 +76,9 @@ const Navbar = () => {
                     >
                       What Sets Us Apart
                     </DropdownMenuItem>
-                    {/* <DropdownMenuItem onClick={() => router.push("/who-we-are/team")}>
+                    <DropdownMenuItem onClick={() => router.push("/who-we-are/team")}>
                       Our Team
-                    </DropdownMenuItem> */}
+                    </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
               </NavigationMenuItem>
@@ -227,7 +227,7 @@ const Navbar = () => {
                           What Sets Us Apart
                         </Link>
                       </li>
-                      {/* <li>
+                      <li>
                         <Link
                           href="/who-we-are/team"
                           onClick={closeSheet}
@@ -235,7 +235,7 @@ const Navbar = () => {
                         >
                           Our Team
                         </Link>
-                      </li> */}
+                      </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

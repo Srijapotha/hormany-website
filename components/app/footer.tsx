@@ -47,11 +47,11 @@ export default function Footer() {
                   About Us
                 </Link>
               </li>
-              {/* <li>
-                <Link href="/who-we-are/our-team" className=" text-[#D1D5DB] text-base text-normal">
+              <li>
+                <Link href="/who-we-are/team" className=" text-[#D1D5DB] text-base text-normal">
                   Our Team
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link href="/who-we-are/what-sets-us-apart" className=" text-[#D1D5DB] text-base text-normal">
                   What Sets Us Apart

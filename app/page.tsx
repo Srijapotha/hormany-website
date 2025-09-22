@@ -105,7 +105,8 @@ export default function Home() {
             <h2 className="text-2xl md:text-[34px] font-bold mb-2">About Us</h2>
 
             <CardDescription className="text-justify text-base">
-              HarmonyOverHate is a global charity dedicated to creating a world where dignity, equality, and respect are the foundation of every community. We work to support victims of hate, promote dialogue across faiths, empower through education, and strengthen communities for lasting harmony.
+              {`HarmonyOverHate is a global charity dedicated to creating a world where dignity, equality, and respect are the foundation of every community. We work to support victims of hate, promote dialogue across faiths, empower through education, and strengthen communities for lasting harmony.
+`}
             </CardDescription>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
@@ -380,7 +381,10 @@ export default function Home() {
                   Individual Contributions
                   <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                 </Link>
-                <CardDescription className="text-justify text-base">We collaborate to support you in realizing your giving goals, whether they involve one-time gifts, ongoing contributions, or creating your own subjective philanthropic strategy. </CardDescription>
+                <CardDescription className="text-justify text-base">
+                  {`We collaborate to support you in realizing your giving goals, whether they involve one-time gifts, ongoing contributions, or creating your own subjective philanthropic strategy.
+`}
+                </CardDescription>
               </div>
 
               <div>
@@ -392,7 +396,10 @@ export default function Home() {
                     Make your Donations Effective
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                   </Link>
-                  <CardDescription className="text-justify">Discover the best ways to contribute that matches your aspiration. We match our strategic, insight led approach with your giving ambitions, so you give in the way you want, to the causes you want, at the right time for you.</CardDescription>
+                  <CardDescription className="text-justify">
+                    {`Discover the best ways to contribute that matches your aspiration. We match our strategic, insight led approach with your giving ambitions, so you give in the way you want, to the causes you want, at the right time for you.
+`}
+                  </CardDescription>
                 </div>
 
                 <div className="mb-4 group">
@@ -403,7 +410,10 @@ export default function Home() {
                     Amplify your Impact
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                   </Link>
-                  <CardDescription className="text-justify">Maximise the impact of your contribution by aligning your contribution’s goals with the exigencies of the charities. From strategic advice to grantmaking and social investment, we can work together to drive meaningful change.</CardDescription>
+                  <CardDescription className="text-justify">
+                    {`Maximise the impact of your contribution by aligning your contribution’s goals with the exigencies of the charities. From strategic advice to grantmaking and social investment, we can work together to drive meaningful change.
+`}
+                  </CardDescription>
                 </div>
 
                 <div className="mb-4 group">
@@ -414,7 +424,10 @@ export default function Home() {
                     Resources to make your Donations Effective
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                   </Link>
-                  <CardDescription className="text-justify">We offer seamless support and expertise to strengthen your own. A trusted philanthropy partner to help your clients make a measurable difference to the causes they care about. 	 </CardDescription>
+                  <CardDescription className="text-justify">
+                    {`We offer seamless support and expertise to strengthen your own. A trusted philanthropy partner to help your clients make a measurable difference to the causes they care about.
+`}
+                  </CardDescription>
                 </div>
 
               </div>
@@ -431,8 +444,8 @@ export default function Home() {
                   <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                 </Link>
                 <CardDescription className="text-justify text-base">
-                  Customized CSR programs and employee engagement initiatives to amplify your company's social impact.
-                </CardDescription>
+                  {`Customized CSR programs and employee engagement initiatives to amplify your company's social impact.
+`}                </CardDescription>
               </div>
 
               <div>
@@ -444,7 +457,9 @@ export default function Home() {
                     Get a corporate contributions
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                   </Link>
-                  <CardDescription className="text-justify">Register now on our Platform, where we contribute and amplify Greatness.</CardDescription>
+                  <CardDescription className="text-justify">
+                    {`Register now on our Platform, where we contribute and amplify Greatness.`}
+                  </CardDescription>
                 </div>
 
                 <div className="mb-4 group">

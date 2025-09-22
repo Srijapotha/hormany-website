@@ -2,7 +2,7 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { scholarship_programs,educational_resources,training_workshops,education_scholarship,education_video_banner } from "@/assets"
 import Image from "next/image"
 // import { Button } from "@/components/ui/button"
-import { Handshake, Heart, User, ArrowRight } from "lucide-react"
+import { Handshake, Heart, User } from "lucide-react"
 
 export default function EducationScholarship() {
   return (
