@@ -7,25 +7,25 @@ export default function AdvancementSection() {
       title: `Support for Victims`,
       description: `Supporting victims of hate crime, prejudice, or discrimination through advice, advocacy, or referral services.`,
       image: MissionAdvantageMission1,
-      alt: `Voice for Victims protest sign`,
+      alt: `Support for Victims`,
     },
     {
       title: `Awareness & Inclusion`,
       description: `Raising public awareness of intolerance and discrimination, encouraging inclusive and sustainable practices within communities.`,
       image: MissionAdvantageMission2,
-      alt: `Close-up of human eye`,
+      alt: `Awareness & Inclusion`,
     },
     {
       title: `Mutual Respect`,
       description: `Promoting mutual respect and understanding between individuals of all faiths, ethnicities, and communities, thereby strengthening social cohesion.`,
       image: MissionAdvantageMission3,
-      alt: `Business handshake`,
+      alt: `BMutual Respect`,
     },
     {
       title: `Collaboration`,
       description: `Collaborating with charities, statutory bodies, and community groups to embed equality and human rights in civic life.`,
       image: MissionAdvantageMission4,
-      alt: `Collaboration meeting`,
+      alt: `Collaboration`,
     },
   ];  
 

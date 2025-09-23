@@ -7,10 +7,10 @@ const AdvisoryComponent: React.FC = () => {
     <div className="p-[40px_10px_40px_10px] md:p-[6%]">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[35px] sm:leading-[45px] md:leading-[50px]">
+        <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-medium text-[#0F172A] mb-1 leading-[35px] sm:leading-[45px] md:leading-[50px]">
           {`Would you happen to know how our
           Advisory works?`}
-        </h1>
+        </h2>
       </div>
 
       {/* Main Content Grid */}

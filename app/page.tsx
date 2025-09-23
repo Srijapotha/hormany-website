@@ -41,64 +41,64 @@ export default function Home() {
           <div className="relative bg-transparent">
             <Image
               src={Project1}
-              alt=""
+              alt="Human Rights & Equality"
               className="w-full h-auto"
               layout="responsive"
             />
             <div className="absolute text-center inset-0 flex flex-col items-center justify-center px-[5%] md:px-[12%] text-white lg:container lg:max-w-7xl mx-auto">
-              <h6 className="text-white text-xs md:text-xl font-semibold">Human Rights & Equality</h6>
+              <h4 className="text-white text-xs md:text-xl font-semibold">Human Rights & Equality</h4>
             </div>
           </div>
           <div className="relative bg-transparent">
             <Image
               src={Project2}
-              alt=""
+              alt="Harmony & Relief"
               className="w-full h-auto"
               layout="responsive"
             />
             <div className="absolute text-center inset-0 flex flex-col items-center justify-center px-[5%] md:px-[12%] text-white lg:container lg:max-w-7xl mx-auto">
-              <h6 className="text-white text-xs md:text-xl font-semibold">Harmony & Relief</h6>
+              <h4 className="text-white text-xs md:text-xl font-semibold">Harmony & Relief</h4>
             </div>
           </div>
           <div className="relative bg-transparent">
             <Image
               src={Project3}
-              alt=""
+              alt="Education & Growth"
               className="w-full h-auto"
               layout="responsive"
             />
             <div className="absolute text-center inset-0 flex flex-col items-center justify-center px-[5%] md:px-[12%] text-white lg:container lg:max-w-7xl mx-auto">
-              <h6 className="text-white text-xs md:text-xl font-semibold">Education & Growth</h6>
+              <h4 className="text-white text-xs md:text-xl font-semibold">Education & Growth</h4>
             </div>
           </div>
           <div className="relative bg-transparent">
             <Image
               src={Project4}
-              alt=""
+              alt="Citizenship & Community"
               className="w-full h-auto"
               layout="responsive"
             />
             <div className="absolute text-center inset-0 flex flex-col items-center justify-center px-[5%] md:px-[12%] text-white lg:container lg:max-w-7xl mx-auto">
-              <h6 className="text-white text-xs md:text-xl font-semibold">Citizenship & Community</h6>
+              <h4 className="text-white text-xs md:text-xl font-semibold">Citizenship & Community</h4>
             </div>
           </div>
           <div className="relative bg-transparent">
             <Image
               src={Project5}
-              alt=""
+              alt="Relief & Support"
               className="w-full h-auto"
               layout="responsive"
             />
             <div className="absolute text-center inset-0 flex flex-col items-center justify-center px-[5%] md:px-[12%] text-white lg:container lg:max-w-7xl mx-auto">
-              <h6 className="text-white text-xs md:text-xl font-semibold">Relief & Support</h6>
+              <h4 className="text-white text-xs md:text-xl font-semibold">Relief & Support</h4>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="lg:container lg:max-w-7xl mx-auto px-6 py-10">
+      <div className="lg:container lg:max-w-7xl mx-auto px-6 py-10 ">
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <Image alt="" src={Intro} className="rounded-4xl" />
+          <Image alt="Global Charity" src={Intro} className="rounded-4xl" />
           <div className="p-8 md:pl-8 md:pr-5 rounded-4xl flex flex-col justify-center bg-[#2e6be626]">
 
 
@@ -112,22 +112,22 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
               <div>
                 <div className="flex gap-3 items-center py-1">
-                  <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">01</span>
+                  <span className="bg-[#F26D4A] p-[9px_13px_9px_13px] rounded-full font-semibold text-white">01</span>
                   <p className="font-semibold">Human Rights Advocacy</p>
                 </div>
                 <div className="flex gap-3 items-center py-1">
-                  <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">02</span>
+                  <span className="bg-[#F26D4A] p-[9px_10px_9px_12px] rounded-full font-semibold text-white">02</span>
                   <p className="font-semibold">Support & Relief</p>
                 </div>
               </div>
 
               <div>
                 <div className="flex gap-3 items-center py-1">
-                  <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">03</span>
+                  <span className="bg-[#F26D4A] p-[9px_10px_9px_12px] rounded-full font-semibold text-white">03</span>
                   <p className="font-semibold">Interfaith Harmony</p>
                 </div>
                 <div className="flex gap-3 items-center py-1">
-                  <span className="bg-[#F26D4A] p-2 rounded-full font-semibold text-white">04</span>
+                  <span className="bg-[#F26D4A] p-[9px_10px_9px_12px] rounded-full font-semibold text-white">04</span>
                   <p className="font-semibold">Education & Development</p>
                 </div>
               </div>
@@ -172,8 +172,8 @@ export default function Home() {
       </div> */}
 
       <div className="lg:container lg:max-w-7xl mx-auto px-6 py-10">
-        <h3 className="text-2xl md:text-[34px] font-bold text-center my-7 md:my-8">Our Programs & Initiatives</h3>
-        <p className="text-center">Comprehensive programs addressing every aspect of human rights and community building.</p>
+        <h2 className="text-2xl md:text-[34px] font-bold text-center my-7 md:my-8">Our Programs & Initiatives</h2>
+        <p className="text-center -mt-4">Comprehensive programs addressing every aspect of human rights and community building.</p>
 
         <Carousel className="w-full" >
 
@@ -183,9 +183,9 @@ export default function Home() {
               <Card className="h-full flex flex-col p-10 shadow-lg">
                 <Image src={Program2} alt="" />
 
-                <CardTitle>Community Development</CardTitle>
+                <h3 className="text-xl font-semibold">Community Development</h3>
                 <CardDescription>
-                  <p className="leading-loose text-justify">
+                  <p className="leading-loose text-justify mb-4 -mt-2">
                     Building stronger communities through civic engagement, volunteer programs, and grassroots initiatives.
                   </p>
                   <p className="flex gap-3"><Check className="text-[#0eb204]" /> Volunteer Programs</p>
@@ -200,9 +200,10 @@ export default function Home() {
               <Card className="h-full flex flex-col p-10 shadow-lg">
                 <Image src={Program1} alt="" />
 
-                <CardTitle>Education & Scholarships</CardTitle>
+              
+                <h3 className="text-xl font-semibold">Education & Scholarships</h3>
                 <CardDescription>
-                  <p className="leading-loose text-justify">Empowering the next generation through education, scholarships, and training programs that promote understanding and equality.
+                  <p className="leading-loose text-justify mb-4 -mt-2">Empowering the next generation through education, scholarships, and training programs that promote understanding and equality.
                   </p>
                   <p className="flex gap-3"><Check className="text-[#0eb204]" /> Scholarship Programs</p>
                   <p className="flex gap-3"><Check className="text-[#0eb204]" /> Educational Resources</p>
@@ -215,10 +216,10 @@ export default function Home() {
               <Card className="h-full flex flex-col p-10 shadow-lg">
                 <Image src={Program3} alt="" />
 
-                <CardTitle>Human Rights & Advocacy
-                </CardTitle>
+                
+                <h3 className="text-xl font-semibold">Human Rights & Advocacy</h3>
                 <CardDescription>
-                  <p className="leading-loose text-justify">
+                  <p className="leading-loose text-justify mb-4 -mt-2">
                     Defending dignity, equality, and justice for all.
                   </p>
                   <p className="flex gap-3"><Check className="text-[#0eb204]" /> Victim Support & Advocacy</p>
@@ -232,9 +233,10 @@ export default function Home() {
               <Card className="h-full flex flex-col p-10 shadow-lg">
                 <Image src={Program4} alt="" />
 
-                <CardTitle>Interfaith & Community Harmony</CardTitle>
+                
+                <h3 className="text-xl font-semibold">Interfaith & Community Harmony</h3>
                 <CardDescription>
-                  <p className="leading-loose text-justify">
+                  <p className="leading-loose text-justify mb-4 -mt-2">
                     Building bridges across faiths, cultures, and communities.
                   </p>
                   <p className="flex gap-3"><Check className="text-[#0eb204]" /> Dialogue & Mediation
@@ -250,10 +252,10 @@ export default function Home() {
               <Card className="h-full flex flex-col p-10 shadow-lg">
                 <Image src={Program5} alt="" />
 
-                <CardTitle>Support & Relief
-                </CardTitle>
+              
+                <h3 className="text-xl font-semibold">Support & Relief</h3>
                 <CardDescription>
-                  <p className="leading-loose text-justify">Providing urgent help and long-term recovery for victims of hate.
+                  <p className="leading-loose text-justify mb-4 -mt-2">Providing urgent help and long-term recovery for victims of hate.
                   </p>
                   <p className="flex gap-3"><Check className="text-[#0eb204]" /> Crisis Relief & Counselling</p>
                   <p className="flex gap-3"><Check className="text-[#0eb204]" /> Family & Community Support</p>
@@ -270,17 +272,17 @@ export default function Home() {
         </Carousel>
       </div>
 
-      <div className="bg-[#0F172A]">
+      <div className="bg-[#0F172A] p-[40px_10px_40px_10px] md:p-[4%]">
         <div className="text-white text-center lg:container lg:max-w-7xl mx-auto px-6 py-10">
 
-          <h3 className="text-3xl font-semibold">Global Impact & Partners</h3>
+          <h2 className="text-4xl font-semibold mb-4">Global Impact & Partners</h2>
           <p>Working with leading organizations worldwide to create lasting change.</p>
 
-          <Image src={Map} alt="" className="p-5 md:p-15" />
+          <Image src={Map} alt="Organizations Worldwide" className="p-5 md:p-15" />
         </div>
       </div>
 
-      <div className="my-10">
+      <div className=" p-[25px_10px_25px_10px] md:p-[6%]">
         <div className="block sm:hidden mb-4">
           <div className="relative">
             <button
@@ -374,13 +376,13 @@ export default function Home() {
           <div className="bg-[#2E6BE60D] px-6 py-10">
             <div className="lg:container lg:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
               <div className="col-span-1 group">
-                <Link
+                <h3><Link
                   href="/what-we-do/individual-contribution"
-                  className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                  className="mb-4 text-base md:text-2xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                 >
                   Individual Contributions
                   <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                </Link>
+                </Link></h3>
                 <CardDescription className="text-justify text-base">
                   {`We collaborate to support you in realizing your giving goals, whether they involve one-time gifts, ongoing contributions, or creating your own subjective philanthropic strategy.
 `}
@@ -389,13 +391,13 @@ export default function Home() {
 
               <div>
                 <div className="mb-4 group">
-                  <Link
+                  <h3><Link
                     href="/what-we-do/individual-contribution"
-                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                    className="mb-3 text-base md:text-lg font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Make your Donations Effective
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                  </Link>
+                  </Link></h3>
                   <CardDescription className="text-justify">
                     {`Discover the best ways to contribute that matches your aspiration. We match our strategic, insight led approach with your giving ambitions, so you give in the way you want, to the causes you want, at the right time for you.
 `}
@@ -403,13 +405,14 @@ export default function Home() {
                 </div>
 
                 <div className="mb-4 group">
-                  <Link
+                  <h3><Link
                     href="/what-we-do/individual-contribution"
-                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                    className="mb-3 text-base md:text-lg font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Amplify your Impact
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                   </Link>
+                  </h3>
                   <CardDescription className="text-justify">
                     {`Maximise the impact of your contribution by aligning your contribution’s goals with the exigencies of the charities. From strategic advice to grantmaking and social investment, we can work together to drive meaningful change.
 `}
@@ -417,13 +420,13 @@ export default function Home() {
                 </div>
 
                 <div className="mb-4 group">
-                  <Link
+                  <h3><Link
                     href="/what-we-do/individual-contribution"
-                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                    className="mb-3 text-base md:text-lg font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Resources to make your Donations Effective
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                  </Link>
+                  </Link></h3>
                   <CardDescription className="text-justify">
                     {`We offer seamless support and expertise to strengthen your own. A trusted philanthropy partner to help your clients make a measurable difference to the causes they care about.
 `}
@@ -439,10 +442,10 @@ export default function Home() {
           <div className="bg-[#2E6BE60D] px-6 py-10">
             <div className="lg:container lg:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
               <div className="col-span-1 group">
-                <Link href="/what-we-do/corporate-contribution" className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100">
+               <h3> <Link href="/what-we-do/corporate-contribution" className="mb-4 text-base md:text-2xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100">
                   Corporate Contributions
                   <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                </Link>
+                </Link></h3>
                 <CardDescription className="text-justify text-base">
                   {`Customized CSR programs and employee engagement initiatives to amplify your company's social impact.
 `}                </CardDescription>
@@ -450,48 +453,48 @@ export default function Home() {
 
               <div>
                 <div className="mb-4 group">
-                  <Link
+                  <h3><Link
                     href="/what-we-do/corporate-contribution"
-                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                    className="mb-3 text-base md:text-lg font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Get a corporate contributions
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                  </Link>
+                  </Link></h3>
                   <CardDescription className="text-justify">
                     {`Register now on our Platform, where we contribute and amplify Greatness.`}
                   </CardDescription>
                 </div>
 
                 <div className="mb-4 group">
-                  <Link
+                  <h3><Link
                     href="/what-we-do/corporate-contribution"
-                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                    className="mb-3 text-base md:text-lg font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Make your donations effective
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                  </Link>
+                  </Link></h3>
                   <CardDescription className="text-justify">{`We combine our in-depth sector expertise, governance support, and tax-efficient giving solutions to help your company (and your employees) make meaningful change.`}</CardDescription>
                 </div>
 
                 <div className="mb-4 group">
-                  <Link
+                 <h3> <Link
                     href="/what-we-do/corporate-contribution"
-                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                    className="mb-3 text-base md:text-lg font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Get strategic advice
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                  </Link>
+                  </Link></h3>
                   <CardDescription className="text-justify">{`Donate more effectively by aligning your company’s contribution aims with the requirements of the charities.`}</CardDescription>
                 </div>
 
                 <div className="mb-4 group">
-                  <Link
+                 <h3> <Link
                     href="/what-we-do/corporate-contributions"
-                    className=" text-base md:text-xl font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
+                    className="mb-3 text-base md:text-lg font-semibold flex gap-2 hover:text-[#2E6BE6] transform transition-all duration-100 delay-100"
                   >
                     Resources to make your donations effective
                     <MoveRight className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-                  </Link>
+                  </Link></h3>
                   <CardDescription className="text-justify">{`Resources to help inspire and inform your corporate contribution.`}</CardDescription>
                 </div>
               </div>

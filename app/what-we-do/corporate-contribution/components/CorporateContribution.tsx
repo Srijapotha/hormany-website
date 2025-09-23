@@ -9,7 +9,7 @@ const CorporateContributionsComponent: React.FC = () => {
       <div className="flex justify-center pb-6">
         <Image
           src={WhatWeDoCorporateImage4}
-          alt="Image"
+          alt="Corporate Contributions"
           width={400}
           height={300}
           className="w-full max-w-[855px] max-h-[280px] md:max-h-[468px] mb-6 shadow-lg object-cover rounded-lg"
@@ -20,9 +20,9 @@ const CorporateContributionsComponent: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
         {/* Left Column */}
         <div className="space-y-4">
-          <h2 className="text-[18px] md:text-[20px] font-bold text-blue-600 mb-4 uppercase tracking-wide">
+          <h3 className="text-[18px] md:text-[20px] font-bold text-blue-600 mb-4 uppercase tracking-wide">
             {`Find Your Purpose With Us`}
-          </h2>
+          </h3>
           <div className="space-y-4 text-[#64748B] leading-relaxed text-base md:text-[17px]">
             <p>
               {`With the Maulee Foundation, we'll assist you in identifying the humanitarian causes among our global network of NGOs. Our comprehensive industry knowledge, well-established governance support, and adaptable solutions will work together to maximize the positive effects of your business's (and your employee's) charitable giving.`}
@@ -36,9 +36,9 @@ const CorporateContributionsComponent: React.FC = () => {
         {/* Right Column */}
         <div className="space-y-6">
           <div>
-            <h2 className="text-[18px] md:text-[20px] font-bold text-blue-600 mb-4">
+            <h3 className="text-[18px] md:text-[20px] font-bold text-blue-600 mb-4">
               {`Get a Corporate Contributions Account`}
-            </h2>
+            </h3>
             <div className="space-y-4 text-[#64748B] leading-relaxed text-base md:text-[17px]">
               <p>
                 {`From aspiration to action, planning to outcomes, we are a partner for companies that wish to contribute and leave their mark on the globe.`}

@@ -1,4 +1,3 @@
-
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 import { MissionHeroBanner, Economic_Transparency } from "@/assets"
@@ -30,7 +29,7 @@ export default function whatsetsusapart() {
 
       {/* What Distinguishes Us */}
       <div className="bg-[#ffffff] p-[40px_10px_40px_10px] md:p-[6%]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
 
           <Card className="rounded-2xl border-l-4 border-[#2E6BE6] shadow-md hover:shadow-lg transition p-3 bg-white">
             <CardHeader className="flex flex-col items-start gap-3">

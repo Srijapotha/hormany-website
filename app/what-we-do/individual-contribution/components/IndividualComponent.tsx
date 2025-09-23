@@ -26,7 +26,7 @@ export default function IndividualContribution() {
           <div className="flex items-center justify-center p-2.5">
             <Image
               src={WhatWeDohappyImage}
-              alt="Happy person"
+              alt="Individual Contributions"
               width={350}
               height={300}
               className="w-full h-full max-w-[650px] object-cover rounded-lg"
