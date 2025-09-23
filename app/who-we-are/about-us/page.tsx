@@ -3,7 +3,7 @@
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Eye, ChartLine, Handshake, Heart, User } from "lucide-react"
 import Image from "next/image"
-import { human_rights_hero,Compassion, Inclusivity, Integrity, Collaboration, Innovation, Sustainability, Diversity, Accountability, Empowerment } from "@/assets";
+import { human_rights_hero, Compassion, Inclusivity, Integrity, Collaboration, Innovation, Sustainability, Diversity, Accountability, Empowerment } from "@/assets";
 
 
 export default function aboutus() {
@@ -50,10 +50,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal">
-                                {`To build a just, inclusive, and peaceful world where diversity is
-                                celebrated, human rights are upheld, and every individual has the
-                                freedom to live with dignity, equality, and mutual respect in a
-                                thriving global community.`}
+                                {`A world where every individual, regardless of faith, ethnicity, or background, lives free from hate and prejudice — united by respect, compassion, and shared humanity.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -66,7 +63,7 @@ export default function aboutus() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-base font-normal">
-                                {`To challenge hate, prejudice, and discrimination everywhere by supporting victims with care and relief services, promoting dialogue across faiths and cultures, and empowering people through education, advocacy, and unity.`}
+                                {`To challenge hate and discrimination by advancing human rights, equality, and diversity; to foster mutual respect and understanding across all faiths and communities; and to empower individuals and organisations to build inclusive, resilient, and sustainable societies.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -85,7 +82,7 @@ export default function aboutus() {
                     <Card className="rounded-lg border-2 border-[#ffffff] border-r-2 border-r-gray-300 border-b-2 border-b-gray-300 shadow-none p-6">
                         <CardHeader className="flex flex-col items-start gap-4">
                             <div className="text-[#FF5C39]">
-                                <Image src={Compassion} alt="Compassion" width={50} height={50}/>
+                                <Image src={Compassion} alt="Compassion" width={50} height={50} />
                             </div>
                             <h3 className="text-lg font-bold text-[#0F172A]">Compassion</h3>
                         </CardHeader>
@@ -100,7 +97,7 @@ export default function aboutus() {
                     <Card className="rounded-lg border-2 border-[#ffffff] border-r-2 border-r-gray-300 border-b-2 border-b-gray-300 shadow-none p-6">
                         <CardHeader className="flex flex-col items-start gap-4">
                             <div className="text-[#FF5C39]">
-                         <Image src={Inclusivity} alt="Compassion" width={50} height={50}/>
+                                <Image src={Inclusivity} alt="Compassion" width={50} height={50} />
                             </div>
                             <h3 className="text-lg font-bold text-[#0F172A]">Inclusivity</h3>
                         </CardHeader>
@@ -115,7 +112,7 @@ export default function aboutus() {
                     <Card className="rounded-lg border-2 border-[#ffffff] border-r-2  border-b-2 border-b-gray-300 shadow-none p-6">
                         <CardHeader className="flex flex-col items-start gap-4">
                             <div className="text-[#FF5C39]">
-                                <Image src={Integrity} alt="Compassion" width={50} height={50}/>
+                                <Image src={Integrity} alt="Compassion" width={50} height={50} />
                             </div>
                             <h3 className="text-lg font-bold text-[#0F172A]">Integrity</h3>
                         </CardHeader>
@@ -131,7 +128,7 @@ export default function aboutus() {
                     <Card className="rounded-lg border-2 border-[#ffffff] border-r-2 border-r-gray-300 border-b-2 border-b-gray-300 shadow-none p-6">
                         <CardHeader className="flex flex-col items-start gap-4">
                             <div className="text-[#FF5C39]">
-                                <Image src={Collaboration} alt="Compassion" width={50} height={50}/>
+                                <Image src={Collaboration} alt="Compassion" width={50} height={50} />
                             </div>
                             <h3 className="text-lg font-bold text-[#0F172A]">Collaboration</h3>
                         </CardHeader>
@@ -146,7 +143,7 @@ export default function aboutus() {
                     <Card className="rounded-lg border-2 border-[#ffffff] border-r-2 border-r-gray-300 border-b-2 border-b-gray-300 shadow-none p-6">
                         <CardHeader className="flex flex-col items-start gap-4">
                             <div className="text-[#FF5C39]">
-                            <Image src={Innovation} alt="Compassion" width={50} height={50}/>
+                                <Image src={Innovation} alt="Compassion" width={50} height={50} />
                             </div>
                             <h3 className="text-lg font-bold text-[#0F172A]">Innovation</h3>
                         </CardHeader>
@@ -161,13 +158,13 @@ export default function aboutus() {
                     <Card className="rounded-lg border-2 border-[#ffffff] border-r-2  border-b-2 border-b-gray-300 shadow-none p-6">
                         <CardHeader className="flex flex-col items-start gap-4">
                             <div className="text-[#FF5C39]">
-                                <Image src={Sustainability} alt="Compassion" width={50} height={50}/>
+                                <Image src={Sustainability} alt="Compassion" width={50} height={50} />
                             </div>
                             <h3 className="text-lg font-bold text-[#0F172A]">Sustainability</h3>
                         </CardHeader>
                         <CardContent>
                             <p className="text-[#64748B] text-sm leading-relaxed">
-                               {` We do our best with excellence in everything we do. We are passing the torch of mastery. Our transfer of expertise allows for sustainable strategic management.`}
+                                {` We do our best with excellence in everything we do. We are passing the torch of mastery. Our transfer of expertise allows for sustainable strategic management.`}
                             </p>
                         </CardContent>
                     </Card>
@@ -177,7 +174,7 @@ export default function aboutus() {
                     <Card className="rounded-lg border-2 border-[#ffffff] border-r-2 border-r-gray-300 border-b-2 border-b-gray-300 shadow-none p-6">
                         <CardHeader className="flex flex-col items-start gap-4">
                             <div className="text-[#FF5C39]">
-                                <Image src={Diversity} alt="Compassion" width={50} height={50}/>
+                                <Image src={Diversity} alt="Compassion" width={50} height={50} />
                             </div>
                             <h3 className="text-lg font-bold text-[#0F172A]">Diversity</h3>
                         </CardHeader>
@@ -192,7 +189,7 @@ export default function aboutus() {
                     <Card className="rounded-lg border-2 border-[#ffffff] border-r-2 border-r-gray-300 border-b-2 border-b-gray-300 shadow-none p-6">
                         <CardHeader className="flex flex-col items-start gap-4">
                             <div className="text-[#FF5C39]">
-                            <Image src={Accountability} alt="Compassion" width={50} height={50}/>
+                                <Image src={Accountability} alt="Compassion" width={50} height={50} />
                             </div>
                             <h3 className="text-lg font-bold text-[#0F172A]">Accountability</h3>
                         </CardHeader>
@@ -207,7 +204,7 @@ export default function aboutus() {
                     <Card className="rounded-lg border-2 border-[#ffffff] border-r-2  border-b-2 border-b-gray-300 shadow-none p-6">
                         <CardHeader className="flex flex-col items-start gap-4">
                             <div className="text-[#FF5C39]">
-                                <Image src={Empowerment} alt="Compassion" width={50} height={50}/>
+                                <Image src={Empowerment} alt="Compassion" width={50} height={50} />
                             </div>
                             <h3 className="text-lg font-bold text-[#0F172A]">Empowerment</h3>
                         </CardHeader>
