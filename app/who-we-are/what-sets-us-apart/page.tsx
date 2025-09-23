@@ -193,11 +193,6 @@ export default function whatsetsusapart() {
           </div>
         </div>
       </div>
-
-
-
-
-
     </>
   )
 }

@@ -3,7 +3,7 @@ import IndividualComponent from "./components/IndividualComponent"
 import CharityComponent from "./components/CharityComponent"
 import ImpactComponent from "./components/SustainComponent"
 import StrategicAdviceComponent from "./components/StrategicAdviceComponent"
-import JoinOurMomentComponent from "./components/JoinOurMomentComponent"
+import JoinOurMovementComponent from "@/components/reusableComponents/JoinOurMovementComponent"
 import CharityResourcesQuote from "./components/CharityResourcesQuote"
 import OurMethodology from "./components/OurMethodology"
 export default function HomePage() {
@@ -40,7 +40,7 @@ export default function HomePage() {
        {/** Charity Resources Quote  */}
        <CharityResourcesQuote />
        {/** Join Our Moment  */}
-       <JoinOurMomentComponent />
+       <JoinOurMovementComponent />
 
     </>
     )

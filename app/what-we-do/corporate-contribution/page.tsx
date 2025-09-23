@@ -1,7 +1,7 @@
 import { MissionHeroBanner } from "@/assets"
 import IndividualComponent from "./components/IndividualComponent"
 import CorporateContributionsComponent from "./components/CorporateContribution"
-import JoinOurMomentComponent from "./components/JoinOurMomentComponent"
+import JoinOurMovementComponent from "@/components/reusableComponents/JoinOurMovementComponent"
 import MakeYourDonations from "./components/MakeYourDonation"
 import StrategicAdvicePage from "./components/StrategicAdviceComponent"
 import AdvisoryComponent from "./components/AdvisoryComponent"
@@ -43,7 +43,7 @@ export default function HomePage() {
        <AdvisoryComponent />
 
        {/** Join Our Moment  */}
-       <JoinOurMomentComponent />
+       <JoinOurMovementComponent />
 
     </>
     )

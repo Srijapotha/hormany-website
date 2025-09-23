@@ -2,7 +2,7 @@ import { MissionHeroBanner } from "@/assets"
 import IndividualComponent from "./components/IndividualComponent"
 import CharityComponent from "./components/CharityComponent"
 import ImpactComponent from "./components/ImpactComponent"
-import JoinOurMomentComponent from "./components/JoinOurMomentComponent"
+import JoinOurMovementComponent from "@/components/reusableComponents/JoinOurMovementComponent"
 export default function HomePage() {
     return (
         <>
@@ -33,7 +33,7 @@ export default function HomePage() {
        {/** Get Strategic Advice  */}
        {/* <StrategicAdviceComponent /> */}
        {/** Join Our Moment  */}
-       <JoinOurMomentComponent />
+       <JoinOurMovementComponent />
 
     </>
     )
